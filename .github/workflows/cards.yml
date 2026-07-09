@@ -28,8 +28,12 @@ jobs:
       - name: Fetch top languages card
         run: curl -sf "https://github-stats-extended.vercel.app/api/top-langs/?username=RohonAlam&layout=donut&hide_border=true&bg_color=0D1117&title_color=00FFFF&text_color=FFFFFF" -o profile/top-langs.svg || echo "top-langs fetch failed, keeping old file"
 
-      - name: Fetch trophies
-        run: curl -sf "https://github-profile-trophy.vercel.app/?username=RohonAlam&theme=algolia&no-frame=true&no-bg=true&margin-w=8&row=1" -o profile/trophies.svg || echo "trophies fetch failed, keeping old file"
+      - name: Generate trophies (self-contained, no external server)
+        uses: Erik-Donath/github-profile-trophy@feature/generate-svg
+        with:
+          username: RohonAlam
+          output_path: profile/trophies.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Fetch activity graph
         run: curl -sf "https://github-readme-activity-graph.vercel.app/graph?username=RohonAlam&theme=react-dark&bg_color=0D1117&color=00FFFF&line=00FFFF&point=FFFFFF&hide_border=true" -o profile/activity-graph.svg || echo "activity graph fetch failed, keeping old file"
