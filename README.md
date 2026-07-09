@@ -6,7 +6,7 @@
   <img src="banner.svg" alt="Rohon Alam banner" width="100%">
 </picture>
 
-`[ PLACEHOLDER: your institute / role, e.g. "M.Tech, Robotics & AI @ Your Institute" ]`
+`["M.Tech, Robotics & AI @ IIT Guwahati" ]`
 
 <p>
   <a href="https://github.com/RohonAlam"><img src="https://img.shields.io/badge/GitHub-RohonAlam-181717?style=for-the-badge&logo=github&logoColor=00FFFF&labelColor=0D1117" /></a>
@@ -21,11 +21,11 @@
 
 ### 🧑‍💻 About Me
 
-- 🎓 `[ PLACEHOLDER: degree / program / institute ]`
-- 🔬 `[ PLACEHOLDER: research area, e.g. "Researching 3D Urban Reconstruction using Video Data" ]`
-- 👁️ `[ PLACEHOLDER: interests, e.g. "Passionate about Computer Vision, Robotics and Deep Learning" ]`
-- 💻 `[ PLACEHOLDER: e.g. "Competitive Programmer | Solving problems on LeetCode" ]`
-- 🌱 `[ PLACEHOLDER: e.g. "Always exploring new technologies and building cool projects" ]`
+- 🎓 `[M.Tech, Robotics & AI @ IIT Guwahati ]`
+- 🔬 `[Researching 3D Urban Reconstruction using Video Data]`
+- 👁️ `[PLACEHOLDER: interests, e.g. "Passionate about Computer Vision, Robotics and Deep Learning" ]`
+- 💻 `[Competitive Programmer | Solving problems on LeetCode]`
+- 🌱 `[Always exploring new technologies and building cool projects]`
 - 🎯 `[ PLACEHOLDER: your goal statement ]`
 
 > *"[ PLACEHOLDER: your favorite quote ]"* — [ Author ]
