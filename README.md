@@ -21,14 +21,14 @@
 
 ### 🧑‍💻 About Me
 
-- 🎓 `[M.Tech, Robotics & AI @ IIT Guwahati ]`
-- 🔬 `[Researching 3D Urban Reconstruction using Video Data]`
-- 👁️ `["Passionate about Computer Vision, Robotics and Deep Learning"]`
-- 💻 `[Competitive Programmer | Solving problems on LeetCode]`
-- 🌱 `[Always exploring new technologies and building cool projects]`
-- 🎯 `[Building intelligent systems that don't just compute — they perceive, adapt, and create real-world impact]`
+- 🎓 M.Tech, Robotics & AI @ IIT Guwahati
+- 🔬 Researching 3D Urban Reconstruction using Video Data
+- 👁️ Passionate about Computer Vision, Robotics and Deep Learning
+- 💻 Competitive Programmer | Solving problems on LeetCode
+- 🌱 Always exploring new technologies and building cool projects
+- 🎯 Building intelligent systems that don't just compute — they perceive, adapt, and create real-world impact
 
->  *"The best way to predict the future is to invent it."* — Alan Kay
+> *"The best way to predict the future is to invent it."* — Alan Kay
 
 ---
 
@@ -73,14 +73,6 @@
 
 ---
 
-### ⏱️ Weekly Coding Activity (WakaTime)
-
-<!--START_SECTION:waka-->
-`[ PLACEHOLDER: runs automatically once WakaTime is connected — see setup instructions ]`
-<!--END_SECTION:waka-->
-
----
-
 ### 🏆 LeetCode Stats
 
 <div align="center">
@@ -91,11 +83,11 @@
 
 ### 🔬 Research
 
-**`[ "3D Urban Reconstruction using Video Data" ]`**
+**3D Urban Reconstruction using Video Data**
 
 `[ PLACEHOLDER: 1–2 line description of the research — problem, approach, and what makes it interesting ]`
 
-`Tag1` `Tag2` `Tag3` `[ e.g. Structure from Motion, SLAM, Neural Rendering ]`
+`Structure from Motion` `SLAM` `Neural Rendering`
 
 ---
 
@@ -104,17 +96,15 @@
 <div align="center">
 
 <a href="https://github.com/RohonAlam/LeetCode">
-<img src="https://github-readme-stats.vercel.app/api/pin/?username=RohonAlam&repo=PLACEHOLDER_REPO_1&hide_border=true&bg_color=0D1117&title_color=00FFFF&icon_color=00FFFF&text_color=FFFFFF" width="45%" />
+<img src="https://github-readme-stats.vercel.app/api/pin/?username=RohonAlam&repo=LeetCode&hide_border=true&bg_color=0D1117&title_color=00FFFF&icon_color=00FFFF&text_color=FFFFFF" width="45%" />
 </a>
 <a href="https://github.com/RohonAlam/3D-Terrain-Generator">
-<img src="https://github-readme-stats.vercel.app/api/pin/?username=RohonAlam&repo=PLACEHOLDER_REPO_2&hide_border=true&bg_color=0D1117&title_color=00FFFF&icon_color=00FFFF&text_color=FFFFFF" width="45%" />
+<img src="https://github-readme-stats.vercel.app/api/pin/?username=RohonAlam&repo=3D-Terrain-Generator&hide_border=true&bg_color=0D1117&title_color=00FFFF&icon_color=00FFFF&text_color=FFFFFF" width="45%" />
 </a>
 
 <a href="https://github.com/RohonAlam/E_Commerce_Project">
-<img src="https://github-readme-stats.vercel.app/api/pin/?username=RohonAlam&repo=PLACEHOLDER_REPO_3&hide_border=true&bg_color=0D1117&title_color=00FFFF&icon_color=00FFFF&text_color=FFFFFF" width="45%" />
+<img src="https://github-readme-stats.vercel.app/api/pin/?username=RohonAlam&repo=E_Commerce_Project&hide_border=true&bg_color=0D1117&title_color=00FFFF&icon_color=00FFFF&text_color=FFFFFF" width="45%" />
 </a>
-
-<sub>Replace PLACEHOLDER_REPO_n with your actual repo names (case-sensitive, no spaces)</sub>
 
 </div>
 
