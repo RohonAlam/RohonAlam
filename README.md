@@ -23,12 +23,12 @@
 
 - 🎓 `[M.Tech, Robotics & AI @ IIT Guwahati ]`
 - 🔬 `[Researching 3D Urban Reconstruction using Video Data]`
-- 👁️ `[PLACEHOLDER: interests, e.g. "Passionate about Computer Vision, Robotics and Deep Learning" ]`
+- 👁️ `["Passionate about Computer Vision, Robotics and Deep Learning"]`
 - 💻 `[Competitive Programmer | Solving problems on LeetCode]`
 - 🌱 `[Always exploring new technologies and building cool projects]`
-- 🎯 `[ PLACEHOLDER: your goal statement ]`
+- 🎯 `[Building intelligent systems that don't just compute — they perceive, adapt, and create real-world impact]`
 
-> *"[ PLACEHOLDER: your favorite quote ]"* — [ Author ]
+>  *"The best way to predict the future is to invent it."* — Alan Kay
 
 ---
 
