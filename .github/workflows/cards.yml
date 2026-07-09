@@ -32,7 +32,7 @@ jobs:
         uses: Erik-Donath/github-profile-trophy@feature/generate-svg
         with:
           username: RohonAlam
-          output_path: profile/trophies.svg
+          file: profile/trophies.svg
           token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Fetch activity graph
