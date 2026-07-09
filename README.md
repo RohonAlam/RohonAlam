@@ -6,7 +6,7 @@
   <img src="banner.svg" alt="Rohon Alam banner" width="100%">
 </picture>
 
-`["M.Tech, Robotics & AI @ IIT Guwahati" ]`
+`M.Tech, Robotics & AI @ IIT Guwahati`
 
 <p>
   <a href="https://github.com/RohonAlam"><img src="https://img.shields.io/badge/GitHub-RohonAlam-181717?style=for-the-badge&logo=github&logoColor=00FFFF&labelColor=0D1117" /></a>
@@ -91,7 +91,7 @@
 
 ### 🔬 Research
 
-**`[ PLACEHOLDER: Project title, e.g. "3D Urban Reconstruction using Video Data" ]`**
+**`[ "3D Urban Reconstruction using Video Data" ]`**
 
 `[ PLACEHOLDER: 1–2 line description of the research — problem, approach, and what makes it interesting ]`
 
@@ -103,18 +103,15 @@
 
 <div align="center">
 
-<a href="https://github.com/RohonAlam/PLACEHOLDER_REPO_1">
+<a href="https://github.com/RohonAlam/LeetCode">
 <img src="https://github-readme-stats.vercel.app/api/pin/?username=RohonAlam&repo=PLACEHOLDER_REPO_1&hide_border=true&bg_color=0D1117&title_color=00FFFF&icon_color=00FFFF&text_color=FFFFFF" width="45%" />
 </a>
-<a href="https://github.com/RohonAlam/PLACEHOLDER_REPO_2">
+<a href="https://github.com/RohonAlam/3D-Terrain-Generator">
 <img src="https://github-readme-stats.vercel.app/api/pin/?username=RohonAlam&repo=PLACEHOLDER_REPO_2&hide_border=true&bg_color=0D1117&title_color=00FFFF&icon_color=00FFFF&text_color=FFFFFF" width="45%" />
 </a>
 
-<a href="https://github.com/RohonAlam/PLACEHOLDER_REPO_3">
+<a href="https://github.com/RohonAlam/E_Commerce_Project">
 <img src="https://github-readme-stats.vercel.app/api/pin/?username=RohonAlam&repo=PLACEHOLDER_REPO_3&hide_border=true&bg_color=0D1117&title_color=00FFFF&icon_color=00FFFF&text_color=FFFFFF" width="45%" />
-</a>
-<a href="https://github.com/RohonAlam/PLACEHOLDER_REPO_4">
-<img src="https://github-readme-stats.vercel.app/api/pin/?username=RohonAlam&repo=PLACEHOLDER_REPO_4&hide_border=true&bg_color=0D1117&title_color=00FFFF&icon_color=00FFFF&text_color=FFFFFF" width="45%" />
 </a>
 
 <sub>Replace PLACEHOLDER_REPO_n with your actual repo names (case-sensitive, no spaces)</sub>
