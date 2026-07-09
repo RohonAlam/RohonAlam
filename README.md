@@ -1,6 +1,10 @@
 <div align="center">
 
-<img src="https://readme-typing-svg.demolab.com?font=Orbitron&size=40&duration=3000&pause=1000&color=00FFFF&center=true&vCenter=true&width=600&height=70&lines=ROHON+ALAM;ROBOTICS+%E2%80%A2+AI+%E2%80%A2+COMPUTER+VISION" alt="Typing SVG" />
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="banner.svg">
+  <source media="(prefers-color-scheme: light)" srcset="banner.svg">
+  <img src="banner.svg" alt="Rohon Alam banner" width="100%">
+</picture>
 
 `[ PLACEHOLDER: your institute / role, e.g. "M.Tech, Robotics & AI @ Your Institute" ]`
 
@@ -45,6 +49,14 @@
 
 ---
 
+### 🏅 Trophies
+
+<div align="center">
+<img src="https://github-profile-trophy.vercel.app/?username=RohonAlam&theme=algolia&no-frame=true&no-bg=true&margin-w=8&row=1" width="95%" />
+</div>
+
+---
+
 ### 🐍 Contribution Snake
 
 <div align="center">
@@ -61,10 +73,52 @@
 
 ---
 
+### ⏱️ Weekly Coding Activity (WakaTime)
+
+<!--START_SECTION:waka-->
+`[ PLACEHOLDER: runs automatically once WakaTime is connected — see setup instructions ]`
+<!--END_SECTION:waka-->
+
+---
+
 ### 🏆 LeetCode Stats
 
 <div align="center">
 <img src="https://leetcard.jacoblin.cool/rohon97?theme=dark&font=Baloo&ext=heatmap" width="55%" />
+</div>
+
+---
+
+### 🔬 Research
+
+**`[ PLACEHOLDER: Project title, e.g. "3D Urban Reconstruction using Video Data" ]`**
+
+`[ PLACEHOLDER: 1–2 line description of the research — problem, approach, and what makes it interesting ]`
+
+`Tag1` `Tag2` `Tag3` `[ e.g. Structure from Motion, SLAM, Neural Rendering ]`
+
+---
+
+### 💼 Featured Projects
+
+<div align="center">
+
+<a href="https://github.com/RohonAlam/PLACEHOLDER_REPO_1">
+<img src="https://github-readme-stats.vercel.app/api/pin/?username=RohonAlam&repo=PLACEHOLDER_REPO_1&hide_border=true&bg_color=0D1117&title_color=00FFFF&icon_color=00FFFF&text_color=FFFFFF" width="45%" />
+</a>
+<a href="https://github.com/RohonAlam/PLACEHOLDER_REPO_2">
+<img src="https://github-readme-stats.vercel.app/api/pin/?username=RohonAlam&repo=PLACEHOLDER_REPO_2&hide_border=true&bg_color=0D1117&title_color=00FFFF&icon_color=00FFFF&text_color=FFFFFF" width="45%" />
+</a>
+
+<a href="https://github.com/RohonAlam/PLACEHOLDER_REPO_3">
+<img src="https://github-readme-stats.vercel.app/api/pin/?username=RohonAlam&repo=PLACEHOLDER_REPO_3&hide_border=true&bg_color=0D1117&title_color=00FFFF&icon_color=00FFFF&text_color=FFFFFF" width="45%" />
+</a>
+<a href="https://github.com/RohonAlam/PLACEHOLDER_REPO_4">
+<img src="https://github-readme-stats.vercel.app/api/pin/?username=RohonAlam&repo=PLACEHOLDER_REPO_4&hide_border=true&bg_color=0D1117&title_color=00FFFF&icon_color=00FFFF&text_color=FFFFFF" width="45%" />
+</a>
+
+<sub>Replace PLACEHOLDER_REPO_n with your actual repo names (case-sensitive, no spaces)</sub>
+
 </div>
 
 ---
@@ -84,10 +138,28 @@
 
 ### 🚀 Currently Exploring
 
-- Deep Learning for 3D Vision
-- SLAM & Visual Odometry
-- Neural Radiance Fields (NeRF)
-- `[ PLACEHOLDER: add more ]`
+Deep Learning for 3D Vision
+![](https://progress-bar.dev/80/?scale=100&title=&width=300&color=00ffff&suffix=%20)
+
+SLAM & Visual Odometry
+![](https://progress-bar.dev/65/?scale=100&title=&width=300&color=00ffff&suffix=%20)
+
+Neural Radiance Fields (NeRF)
+![](https://progress-bar.dev/55/?scale=100&title=&width=300&color=00ffff&suffix=%20)
+
+Reinforcement Learning
+![](https://progress-bar.dev/35/?scale=100&title=&width=300&color=00ffff&suffix=%20)
+
+`[ PLACEHOLDER: adjust the numbers above (0–100) to reflect your actual comfort level in each area ]`
+
+---
+
+### 🎯 Goals for 2026
+
+- [ ] `[ PLACEHOLDER: e.g. "Solve 500+ LeetCode problems" ]`
+- [ ] `[ PLACEHOLDER: e.g. "Publish a research paper" ]`
+- [ ] `[ PLACEHOLDER: e.g. "Contribute to an open-source robotics project" ]`
+- [ ] `[ PLACEHOLDER: e.g. "Secure a great placement" ]`
 
 ---
 
