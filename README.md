@@ -188,40 +188,6 @@ Future ── Research Publication
 <div align="center">
 
 <a href="https://github.com/RohonAlam">
-<img src="https://img.shields.io/badge/💻_GitHub-OPEN_PROFILE-00FFFF?style=for-the-badge&labelColor=0D1117"/>
-</a>
-
-<a href="https://www.linkedin.com/in/rohon-alam-53a694219/">
-<img src="https://img.shields.io/badge/💼_LinkedIn-CONNECT-00FFFF?style=for-the-badge&labelColor=0D1117"/>
-</a>
-
-<a href="https://leetcode.com/u/rohon97/">
-<img src="https://img.shields.io/badge/🧩_LeetCode-VIEW_PROFILE-00FFFF?style=for-the-badge&labelColor=0D1117"/>
-</a>
-
-<a href="mailto:ra.official.9775@gmail.com">
-<img src="https://img.shields.io/badge/📧_Email-SEND_MESSAGE-00FFFF?style=for-the-badge&labelColor=0D1117"/>
-</a>
-
-</div>
-
-<div align="center">
-
-<a href="https://github.com/RohonAlam"><img src="assets/icons/github.svg" width="28" alt="GitHub"/></a>
-&nbsp;&nbsp;
-<a href="https://www.linkedin.com/in/rohon-alam-53a694219/"><img src="assets/icons/linkedin.svg" width="28" alt="LinkedIn — add your URL in assets/config.md"/></a>
-&nbsp;&nbsp;
-<a href="https://leetcode.com/u/rohon97/"><img src="assets/icons/leetcode.svg" width="28" alt="LeetCode — add your username in assets/config.md"/></a>
-&nbsp;&nbsp;
-<a href="mailto:ra.official.9775@gmail.com"><img src="assets/icons/email.svg" width="28" alt="Email — add your address in assets/config.md"/></a>
-
-</div>
-
-## 📡 COMMUNICATION HUB
-
-<div align="center">
-
-<a href="https://github.com/RohonAlam">
   <img src="https://img.shields.io/badge/GitHub-0D1117?style=for-the-badge&logo=github&logoColor=00FFFF" />
 </a>
 
