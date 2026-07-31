@@ -89,8 +89,6 @@ width="95%"/>
 
 ```
 
-<div align="center">
-
 ## 📁 PROJECT DATABASE
 
 ```text
@@ -141,12 +139,6 @@ REPOSITORY   https://github.com/RohonAlam/AI-Voice-Assistant
 ```
 
 ➡️ **Repository:** https://github.com/RohonAlam/AI-Voice-Assistant
-
-</div>
-
-> **Not yet filled in:** rows `[002]` and `[003]`, and the `ADD_REPO_LINK` /
-> `repo-1` / `repo-2` placeholders. I don't have your other project details or
-> repo names on record, so I left them as edit markers rather than guessing.
 
 <img src="assets/divider.svg" width="100%"/>
 
