@@ -1,0 +1,89 @@
+<svg width="900" height="260" viewBox="0 0 900 260" xmlns="http://www.w3.org/2000/svg">
+  <!-- ============================================================
+       banner.svg — AI OS hero banner
+       Colors mirror assets/config.md → COLOR SYSTEM
+       BG=#0D1117 PRIMARY=#00FFFF SECONDARY=#00A3FF TEXT=#FFFFFF MUTED=#8B949E SUCCESS=#00FF88
+       Edit the text inside <g id="text"> to rebrand.
+       ============================================================ -->
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0D1117"/>
+      <stop offset="100%" stop-color="#0A0F1A"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="50%" cy="50%" r="60%">
+      <stop offset="0%" stop-color="#00FFFF" stop-opacity="0.25"/>
+      <stop offset="100%" stop-color="#00FFFF" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="softGlow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <pattern id="hexPattern" width="56" height="100" patternUnits="userSpaceOnUse" patternTransform="scale(1)">
+      <path d="M28 0 L56 16 L56 50 L28 66 L0 50 L0 16 Z" fill="none" stroke="#1B2430" stroke-width="1"/>
+      <path d="M28 66 L56 82 L56 116 L28 132 L0 116 L0 82 Z" fill="none" stroke="#1B2430" stroke-width="1"/>
+    </pattern>
+  </defs>
+
+  <!-- ================= background ================= -->
+  <g id="background">
+    <rect x="0" y="0" width="900" height="260" rx="14" fill="url(#bgGrad)"/>
+    <rect x="0" y="0" width="900" height="260" rx="14" fill="url(#hexPattern)" opacity="0.5"/>
+    <circle cx="820" cy="60" r="140" fill="url(#glow)"/>
+    <circle cx="90" cy="210" r="120" fill="url(#glow)"/>
+    <rect x="2" y="2" width="896" height="256" rx="12" fill="none" stroke="#00A3FF" stroke-opacity="0.4" stroke-width="1.5"/>
+  </g>
+
+  <!-- ================= circuit traces ================= -->
+  <g id="circuits" stroke="#00A3FF" stroke-width="1.2" fill="none" opacity="0.55">
+    <path d="M0 40 H120 L140 60 H260">
+      <animate attributeName="stroke-dasharray" from="0,400" to="400,0" dur="4s" repeatCount="indefinite"/>
+    </path>
+    <path d="M900 220 H760 L740 200 H600"/>
+    <path d="M0 220 H100 L120 240"/>
+    <path d="M900 40 H820 L800 20"/>
+    <circle cx="260" cy="60" r="3" fill="#00FFFF"/>
+    <circle cx="600" cy="200" r="3" fill="#00FFFF"/>
+  </g>
+
+  <!-- ================= HUD frame corners ================= -->
+  <g id="hud" stroke="#00FFFF" stroke-width="2" fill="none">
+    <path d="M16 30 V16 H30"/>
+    <path d="M884 30 V16 H870"/>
+    <path d="M16 230 V244 H30"/>
+    <path d="M884 230 V244 H870"/>
+  </g>
+
+  <!-- ================= radar ================= -->
+  <g id="radar" transform="translate(792,130)" opacity="0.9">
+    <circle r="42" fill="none" stroke="#00A3FF" stroke-width="1" opacity="0.5"/>
+    <circle r="28" fill="none" stroke="#00A3FF" stroke-width="1" opacity="0.5"/>
+    <circle r="14" fill="none" stroke="#00A3FF" stroke-width="1" opacity="0.5"/>
+    <line x1="-42" y1="0" x2="42" y2="0" stroke="#00A3FF" stroke-width="0.6" opacity="0.4"/>
+    <line x1="0" y1="-42" x2="0" y2="42" stroke="#00A3FF" stroke-width="0.6" opacity="0.4"/>
+    <g>
+      <path d="M0 0 L0 -42 A42 42 0 0 1 25 -33 Z" fill="#00FFFF" opacity="0.35"/>
+      <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="3s" repeatCount="indefinite"/>
+    </g>
+    <circle r="2.5" fill="#00FF88"/>
+  </g>
+
+  <!-- ================= text ================= -->
+  <g id="text" font-family="JetBrains Mono, Fira Code, monospace" fill="#FFFFFF">
+    <text x="40" y="70" font-size="26" fill="#00FFFF" filter="url(#softGlow)" font-weight="bold">AI OPERATING SYSTEM v2.0</text>
+    <text x="40" y="98" font-size="14" fill="#8B949E">Robotics &amp; Computer Vision Research Workstation</text>
+
+    <text x="40" y="140" font-size="13" fill="#00FF88">Boot Sequence...</text>
+    <rect x="40" y="150" width="420" height="10" rx="5" fill="#161B22" stroke="#1B2430"/>
+    <rect x="40" y="150" width="420" height="10" rx="5" fill="#00FFFF">
+      <animate attributeName="width" from="0" to="420" dur="2.2s" fill="freeze"/>
+    </rect>
+    <text x="470" y="159" font-size="12" fill="#00FFFF">100%</text>
+
+    <text x="40" y="190" font-size="12" fill="#8B949E" xml:space="preserve">&#x2713; Computer Vision Engine   &#x2713; Robotics Runtime   &#x2713; Deep Learning Runtime</text>
+    <text x="40" y="210" font-size="12" fill="#8B949E" xml:space="preserve">&#x2713; Neural Rendering   &#x2713; Research Database   &#x2713; GitHub API</text>
+    <text x="40" y="236" font-size="14" fill="#00FF88" font-weight="bold">SYSTEM READY.</text>
+  </g>
+</svg>

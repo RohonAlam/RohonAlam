@@ -1,0 +1,18 @@
+<svg width="400" height="400" viewBox="0 0 400 400" xmlns="http://www.w3.org/2000/svg">
+  <!-- background.svg — tileable hex-grid texture used behind other assets -->
+  <defs>
+    <pattern id="hex" width="56" height="100" patternUnits="userSpaceOnUse">
+      <path d="M28 0 L56 16 L56 50 L28 66 L0 50 L0 16 Z" fill="none" stroke="#1B2430" stroke-width="1"/>
+      <path d="M28 66 L56 82 L56 116 L28 132 L0 116 L0 82 Z" fill="none" stroke="#1B2430" stroke-width="1"/>
+    </pattern>
+    <radialGradient id="vignette" cx="50%" cy="50%" r="70%">
+      <stop offset="0%" stop-color="#0D1117" stop-opacity="0"/>
+      <stop offset="100%" stop-color="#000000" stop-opacity="0.35"/>
+    </radialGradient>
+  </defs>
+  <g id="background">
+    <rect width="400" height="400" fill="#0D1117"/>
+    <rect width="400" height="400" fill="url(#hex)"/>
+    <rect width="400" height="400" fill="url(#vignette)"/>
+  </g>
+</svg>

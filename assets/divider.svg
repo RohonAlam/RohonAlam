@@ -1,0 +1,22 @@
+<svg width="900" height="40" viewBox="0 0 900 40" xmlns="http://www.w3.org/2000/svg">
+  <!-- divider.svg — cyberpunk section separator. Colors from assets/config.md -->
+  <defs>
+    <linearGradient id="lineGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00FFFF" stop-opacity="0"/>
+      <stop offset="15%" stop-color="#00FFFF" stop-opacity="0.9"/>
+      <stop offset="50%" stop-color="#00A3FF" stop-opacity="0.9"/>
+      <stop offset="85%" stop-color="#00FFFF" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#00FFFF" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <g id="background">
+    <rect x="0" y="0" width="900" height="40" fill="#0D1117"/>
+  </g>
+  <g id="hud">
+    <line x1="0" y1="20" x2="900" y2="20" stroke="url(#lineGrad)" stroke-width="1.5"/>
+    <polygon points="450,10 462,20 450,30 438,20" fill="#0D1117" stroke="#00FFFF" stroke-width="1.5"/>
+    <circle cx="450" cy="20" r="3" fill="#00FF88"/>
+    <rect x="150" y="17" width="6" height="6" fill="#00A3FF"/>
+    <rect x="744" y="17" width="6" height="6" fill="#00A3FF"/>
+  </g>
+</svg>

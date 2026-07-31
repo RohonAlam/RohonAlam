@@ -1,0 +1,23 @@
+<svg width="900" height="120" viewBox="0 0 900 120" xmlns="http://www.w3.org/2000/svg">
+  <!-- hud.svg — reusable HUD corner-bracket frame, drop behind any section -->
+  <g id="background">
+    <rect x="0" y="0" width="900" height="120" fill="none"/>
+  </g>
+  <g id="hud" stroke="#00FFFF" stroke-width="2" fill="none">
+    <path d="M4 30 V6 H30"/>
+    <path d="M896 30 V6 H870"/>
+    <path d="M4 90 V114 H30"/>
+    <path d="M896 90 V114 H870"/>
+  </g>
+  <g id="ticks" stroke="#00A3FF" stroke-width="1" opacity="0.6">
+    <line x1="40" y1="6" x2="40" y2="14"/>
+    <line x1="60" y1="6" x2="60" y2="14"/>
+    <line x1="80" y1="6" x2="80" y2="14"/>
+    <line x1="820" y1="6" x2="820" y2="14"/>
+    <line x1="840" y1="6" x2="840" y2="14"/>
+    <line x1="860" y1="6" x2="860" y2="14"/>
+  </g>
+  <g id="label" font-family="JetBrains Mono, monospace" font-size="10" fill="#8B949E">
+    <text x="450" y="16" text-anchor="middle">SYS//MODULE-FRAME</text>
+  </g>
+</svg>

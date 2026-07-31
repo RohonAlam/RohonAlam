@@ -1,0 +1,20 @@
+<svg width="900" height="200" viewBox="0 0 900 200" xmlns="http://www.w3.org/2000/svg">
+  <!-- ============================================================
+       profile/trophies.svg
+       PLACEHOLDER — this file is regenerated automatically by
+       .github/workflows/profile.yml (the "Generate Trophies" step)
+       using the ryo-ma/github-profile-trophy generator. Do not
+       hand-edit; your changes will be overwritten on the next run.
+       ============================================================ -->
+  <g id="background">
+    <rect width="900" height="200" fill="#0D1117" rx="10" stroke="#00A3FF" stroke-opacity="0.35"/>
+  </g>
+  <g id="text" font-family="JetBrains Mono, monospace">
+    <text x="450" y="95" text-anchor="middle" fill="#00FFFF" font-size="16" font-weight="bold">
+      TROPHIES — AWAITING FIRST WORKFLOW RUN
+    </text>
+    <text x="450" y="120" text-anchor="middle" fill="#8B949E" font-size="12">
+      Push to main or wait for the daily schedule to populate this asset.
+    </text>
+  </g>
+</svg>

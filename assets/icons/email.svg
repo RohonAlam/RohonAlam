@@ -1,0 +1,5 @@
+<svg width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+  <!-- email.svg — contact icon -->
+  <rect x="0.5" y="0.5" width="23" height="23" rx="4" fill="none" stroke="#8B949E"/>
+  <path fill="none" stroke="#FFFFFF" stroke-width="1.2" d="M4 7h16v10H4Zm0 0 8 6 8-6"/>
+</svg>

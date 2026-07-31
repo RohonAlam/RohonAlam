@@ -1,0 +1,22 @@
+<svg width="120" height="120" viewBox="0 0 120 120" xmlns="http://www.w3.org/2000/svg">
+  <!-- logo.svg — hexagonal AI OS emblem -->
+  <defs>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="2" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+  <g id="background">
+    <circle cx="60" cy="60" r="58" fill="#0D1117" stroke="#00A3FF" stroke-opacity="0.4"/>
+  </g>
+  <g id="hud" filter="url(#glow)">
+    <polygon points="60,14 100,37 100,83 60,106 20,83 20,37" fill="none" stroke="#00FFFF" stroke-width="2.5"/>
+    <polygon points="60,32 84,46 84,74 60,88 36,74 36,46" fill="none" stroke="#00A3FF" stroke-width="1.5"/>
+  </g>
+  <g id="text" font-family="JetBrains Mono, monospace" font-weight="bold">
+    <text x="60" y="66" text-anchor="middle" font-size="20" fill="#FFFFFF">RA</text>
+  </g>
+  <g id="tick">
+    <circle cx="60" cy="60" r="3" fill="#00FF88"/>
+  </g>
+</svg>
