@@ -165,7 +165,7 @@ Reinforcement Learning
 - GitHub: [github.com/RohonAlam](https://github.com/RohonAlam)
 - LinkedIn: [linkedin.com/in/rohon-alam-53a694219](https://www.linkedin.com/in/rohon-alam-53a694219/)
 - LeetCode: [leetcode.com/u/rohon97](https://leetcode.com/u/rohon97/)
-- Email: `PLACEHOLDER_EMAIL@gmail.com`
+- Email: `ra.official.9775@gmail.com`
 
 ---
 
