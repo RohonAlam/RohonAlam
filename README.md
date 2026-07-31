@@ -58,8 +58,6 @@ SYSTEM READY.
 
 <div align="center">
 
-<div align="center">
-
 <img
 src="./profile/github-metrics.svg"
 width="95%"/>
@@ -80,6 +78,13 @@ width="95%"/>
 </div>
 
 <img src="assets/divider.svg" width="100%"/>
+## 🏅 Trophies
+
+<div align="center">
+
+<img width="95%" src="./profile/trophies.svg"/>
+
+</div>
 
 ## ACTIVE MODULES
 
