@@ -28,7 +28,7 @@
 
 <img src="assets/divider.svg" width="100%"/>
 
-## `[ SECTION 1 ]` BOOT SCREEN
+## BOOT SCREEN
 
 ```
 AI OPERATING SYSTEM v2.0
@@ -48,13 +48,13 @@ SYSTEM READY.
 
 <img src="assets/divider.svg" width="100%"/>
 
-## `[ SECTION 2 ]` SYSTEM INFORMATION
+## SYSTEM INFORMATION
 
 <img src="assets/terminal.svg" width="100%"/>
 
 <img src="assets/divider.svg" width="100%"/>
 
-## `[ SECTION 3 ]` SYSTEM DASHBOARD
+## SYSTEM DASHBOARD
 
 <div align="center">
 
@@ -81,7 +81,7 @@ width="95%"/>
 
 <img src="assets/divider.svg" width="100%"/>
 
-## `[ SECTION 4 ]` ACTIVE MODULES
+## ACTIVE MODULES
 
 <img src="assets/modules.svg" width="100%"/>
 
@@ -139,7 +139,7 @@ REPOSITORY   https://github.com/RohonAlam/AI-Voice-Assistant
 
 <img src="assets/divider.svg" width="100%"/>
 
-## `[ SECTION 6 ]` SKILL MATRIX
+## SKILL MATRIX
 
 ```
 Python              ██████████████████░░  95%
@@ -157,7 +157,7 @@ Git                 █████████████████░░░
 
 <img src="assets/divider.svg" width="100%"/>
 
-## `[ SECTION 7 ]` RESEARCH TIMELINE
+## RESEARCH TIMELINE
 
 ```
 2023 ── AI Voice Assistant
@@ -173,7 +173,7 @@ Future ── Research Publication
 
 <img src="assets/divider.svg" width="100%"/>
 
-## `[ SECTION 8 ]` CURRENT GOALS
+## CURRENT GOALS
 
 - [ ] `ADD_GOAL_1`
 - [ ] `ADD_GOAL_2`
@@ -220,7 +220,7 @@ Future ── Research Publication
 
 <img src="assets/divider.svg" width="100%"/>
 
-## `[ SECTION 10 ]` FOOTER
+## FOOTER
 
 <img src="assets/footer.svg" width="100%"/>
 
