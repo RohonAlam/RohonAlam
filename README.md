@@ -200,7 +200,7 @@ Future ── Research Publication
 <img src="https://img.shields.io/badge/🧩_LeetCode-VIEW_PROFILE-00FFFF?style=for-the-badge&labelColor=0D1117"/>
 </a>
 
-<a href="mailto:your_email@gmail.com">
+<a href="mailto:ra.official.9775@gmail.com">
 <img src="https://img.shields.io/badge/📧_Email-SEND_MESSAGE-00FFFF?style=for-the-badge&labelColor=0D1117"/>
 </a>
 
