@@ -175,12 +175,11 @@ Future ── Research Publication
 
 ## CURRENT GOALS
 
-- [ ] `ADD_GOAL_1`
-- [ ] `ADD_GOAL_2`
-- [ ] `ADD_GOAL_3`
+- [ ] `[ PLACEHOLDER: e.g. "Solve 500+ LeetCode problems" ]`
+- [ ] `[ PLACEHOLDER: e.g. "Publish a research paper" ]`
+- [ ] `[ PLACEHOLDER: e.g. "Contribute to an open-source robotics project" ]`
+- [ ] `[ PLACEHOLDER: e.g. "Secure a great placement" ]`
 
-> Left blank on purpose — I don't have your actual 2026 goals on file. Fill
-> these in via `assets/config.md`, then mirror them here.
 
 <img src="assets/divider.svg" width="100%"/>
 
