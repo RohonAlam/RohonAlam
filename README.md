@@ -118,9 +118,56 @@ LINK         ADD_LINK
 
 <div align="center">
 
-<!-- Pin cards — replace repo-1 / repo-2 with your real repo names -->
-<img src="https://github-readme-stats.vercel.app/api/pin/?username=RohonAlam&repo=LeetCode&theme=github_dark&hide_border=true&bg_color=0D1117&title_color=00FFFF&text_color=FFFFFF" height="150"/>
-<img src="https://github-readme-stats.vercel.app/api/pin/?username=RohonAlam&repo=3D-Terrain-Generator&theme=github_dark&hide_border=true&bg_color=0D1117&title_color=00FFFF&text_color=FFFFFF" height="150"/>
+## 📁 PROJECT DATABASE
+
+```text
+[001] ───────────────────────────────────────────────────────────────
+
+NAME         3D Terrain Generator
+STATUS       ● ONLINE
+DESCRIPTION  Desktop application that converts DEM data into
+             printable 3D terrain models.
+
+TECH STACK   Python • PyQt • OpenCV • GIS
+
+REPOSITORY   https://github.com/RohonAlam/3D-Terrain-Generator
+
+─────────────────────────────────────────────────────────────────────
+```
+
+➡️ **Repository:** https://github.com/RohonAlam/3D-Terrain-Generator
+
+```text
+[002] ───────────────────────────────────────────────────────────────
+
+NAME         LeetCode
+STATUS       ● ACTIVE
+DESCRIPTION  Collection of DSA solutions with detailed notes.
+
+TECH STACK   Python • C++ • Algorithms
+
+REPOSITORY   https://github.com/RohonAlam/LeetCode
+
+─────────────────────────────────────────────────────────────────────
+```
+
+➡️ **Repository:** https://github.com/RohonAlam/LeetCode
+
+```text
+[003] ───────────────────────────────────────────────────────────────
+
+NAME         AI Voice Assistant
+STATUS       ● STABLE
+DESCRIPTION  Offline AI voice assistant built in Python.
+
+TECH STACK   Python • SpeechRecognition • PyQt
+
+REPOSITORY   https://github.com/RohonAlam/AI-Voice-Assistant
+
+─────────────────────────────────────────────────────────────────────
+```
+
+➡️ **Repository:** https://github.com/RohonAlam/AI-Voice-Assistant
 
 </div>
 
