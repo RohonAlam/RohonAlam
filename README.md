@@ -184,17 +184,27 @@ Future ── Research Publication
 
 <img src="assets/divider.svg" width="100%"/>
 
-## `[ SECTION 9 ]` CONTACT
+## 📡 COMMUNICATION HUB
 
-```
-$ cat contact.json
-{
-  "github":   "https://github.com/RohonAlam",
-  "linkedin": "ADD_YOUR_LINKEDIN_URL",
-  "leetcode": "ADD_YOUR_LEETCODE_USERNAME",
-  "email":    "ADD_YOUR_EMAIL"
-}
-```
+<div align="center">
+
+<a href="https://github.com/RohonAlam">
+<img src="https://img.shields.io/badge/💻_GitHub-OPEN_PROFILE-00FFFF?style=for-the-badge&labelColor=0D1117"/>
+</a>
+
+<a href="https://www.linkedin.com/in/rohon-alam-53a694219/">
+<img src="https://img.shields.io/badge/💼_LinkedIn-CONNECT-00FFFF?style=for-the-badge&labelColor=0D1117"/>
+</a>
+
+<a href="https://leetcode.com/u/rohon97/">
+<img src="https://img.shields.io/badge/🧩_LeetCode-VIEW_PROFILE-00FFFF?style=for-the-badge&labelColor=0D1117"/>
+</a>
+
+<a href="mailto:your_email@gmail.com">
+<img src="https://img.shields.io/badge/📧_Email-SEND_MESSAGE-00FFFF?style=for-the-badge&labelColor=0D1117"/>
+</a>
+
+</div>
 
 <div align="center">
 
