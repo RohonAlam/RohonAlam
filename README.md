@@ -67,7 +67,6 @@ width="95%"/>
 </div>
 <img src="https://streak-stats.demolab.com/?user=RohonAlam&theme=github-dark-blue&hide_border=true&background=0D1117&ring=00FFFF&fire=00FF88&currStreakLabel=00FFFF" height="165"/>
 
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=RohonAlam&layout=compact&theme=github_dark&hide_border=true&bg_color=0D1117&title_color=00FFFF&text_color=FFFFFF&cache_seconds=86400" height="165"/>
 
 <img src="https://github-readme-activity-graph.vercel.app/graph?username=RohonAlam&theme=github-compact&bg_color=0D1117&color=00FFFF&line=00A3FF&point=00FF88&hide_border=true" width="100%"/>
 
