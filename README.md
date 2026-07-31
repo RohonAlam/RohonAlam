@@ -87,33 +87,6 @@ width="95%"/>
 
 <img src="assets/divider.svg" width="100%"/>
 
-## `[ SECTION 5 ]` PROJECT DATABASE
-
-```
-[001] ─────────────────────────────────────────────────────────────
-NAME         3D-Urban-Reconstruction
-STATUS       ACTIVE
-DESCRIPTION  Reconstructing urban-scale 3D scenes from monocular
-             video for my M.Tech research at IIT Guwahati.
-TECH_STACK   Python · PyTorch · NeRF / 3D Gaussian Splatting · OpenCV
-LINK         ADD_REPO_LINK
-─────────────────────────────────────────────────────────────────
-
-[002] ─────────────────────────────────────────────────────────────
-NAME         ADD_PROJECT_NAME
-STATUS       ADD_STATUS
-DESCRIPTION  ADD_DESCRIPTION
-TECH_STACK   ADD_STACK
-LINK         ADD_LINK
-─────────────────────────────────────────────────────────────────
-
-[003] ─────────────────────────────────────────────────────────────
-NAME         ADD_PROJECT_NAME
-STATUS       ADD_STATUS
-DESCRIPTION  ADD_DESCRIPTION
-TECH_STACK   ADD_STACK
-LINK         ADD_LINK
-─────────────────────────────────────────────────────────────────
 ```
 
 <div align="center">
