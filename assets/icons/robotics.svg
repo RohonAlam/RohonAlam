@@ -1,0 +1,11 @@
+<!--
+  robotics.svg
+  Robotics diagnostics icon.
+-->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" role="img" aria-label="Robotics icon">
+  <rect width="128" height="128" rx="24" fill="#0D1117" stroke="#00FFFF" stroke-opacity="0.4" />
+  <rect x="22" y="40" width="84" height="48" rx="10" fill="none" stroke="#00A3FF" stroke-width="6" />
+  <circle cx="42" cy="64" r="8" fill="#00FF88" />
+  <circle cx="86" cy="64" r="8" fill="#00FFFF" />
+  <path d="M64 24V14M64 114V104M14 64H24M104 64H114" stroke="#00FFFF" stroke-width="4" />
+</svg>

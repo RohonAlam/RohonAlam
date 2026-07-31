@@ -1,18 +1,39 @@
-<svg width="400" height="400" viewBox="0 0 400 400" xmlns="http://www.w3.org/2000/svg">
-  <!-- background.svg — tileable hex-grid texture used behind other assets -->
+<!--
+  background.svg
+  Dark cyberpunk background texture for composite use in profile visuals.
+  Groups: background, lines, glow.
+-->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">Cyberpunk Background</title>
+  <desc id="desc">Dark futuristic background with grid lines and HUD glows.</desc>
   <defs>
-    <pattern id="hex" width="56" height="100" patternUnits="userSpaceOnUse">
-      <path d="M28 0 L56 16 L56 50 L28 66 L0 50 L0 16 Z" fill="none" stroke="#1B2430" stroke-width="1"/>
-      <path d="M28 66 L56 82 L56 116 L28 132 L0 116 L0 82 Z" fill="none" stroke="#1B2430" stroke-width="1"/>
-    </pattern>
-    <radialGradient id="vignette" cx="50%" cy="50%" r="70%">
-      <stop offset="0%" stop-color="#0D1117" stop-opacity="0"/>
-      <stop offset="100%" stop-color="#000000" stop-opacity="0.35"/>
-    </radialGradient>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#091119" />
+      <stop offset="100%" stop-color="#0D1117" />
+    </linearGradient>
   </defs>
   <g id="background">
-    <rect width="400" height="400" fill="#0D1117"/>
-    <rect width="400" height="400" fill="url(#hex)"/>
-    <rect width="400" height="400" fill="url(#vignette)"/>
+    <rect width="1600" height="900" fill="url(#bg)" />
+    <rect x="12" y="12" width="1576" height="876" rx="20" fill="none" stroke="#00FFFF" stroke-opacity="0.14" />
+  </g>
+  <g id="lines">
+    <path d="M0 120H1600" stroke="#00FFFF" stroke-opacity="0.08" />
+    <path d="M0 240H1600" stroke="#00FFFF" stroke-opacity="0.08" />
+    <path d="M0 360H1600" stroke="#00FFFF" stroke-opacity="0.08" />
+    <path d="M0 480H1600" stroke="#00FFFF" stroke-opacity="0.08" />
+    <path d="M0 600H1600" stroke="#00FFFF" stroke-opacity="0.08" />
+    <path d="M0 720H1600" stroke="#00FFFF" stroke-opacity="0.08" />
+    <path d="M120 0V900" stroke="#00FFFF" stroke-opacity="0.08" />
+    <path d="M320 0V900" stroke="#00FFFF" stroke-opacity="0.08" />
+    <path d="M520 0V900" stroke="#00FFFF" stroke-opacity="0.08" />
+    <path d="M720 0V900" stroke="#00FFFF" stroke-opacity="0.08" />
+    <path d="M920 0V900" stroke="#00FFFF" stroke-opacity="0.08" />
+    <path d="M1120 0V900" stroke="#00FFFF" stroke-opacity="0.08" />
+    <path d="M1320 0V900" stroke="#00FFFF" stroke-opacity="0.08" />
+  </g>
+  <g id="glow">
+    <circle cx="250" cy="220" r="120" fill="#00FFFF" fill-opacity="0.07" />
+    <circle cx="1280" cy="620" r="180" fill="#00A3FF" fill-opacity="0.06" />
+    <circle cx="820" cy="420" r="220" fill="#00FF88" fill-opacity="0.04" />
   </g>
 </svg>

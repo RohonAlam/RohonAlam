@@ -1,23 +1,33 @@
-<svg width="900" height="120" viewBox="0 0 900 120" xmlns="http://www.w3.org/2000/svg">
-  <!-- hud.svg — reusable HUD corner-bracket frame, drop behind any section -->
+<!--
+  hud.svg
+  Generic HUD frame with borders, scan lines, and corners.
+  Groups: background, frame, grid, accent.
+-->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 600" role="img" aria-labelledby="title desc">
+  <title id="title">HUD Frame</title>
+  <desc id="desc">Futuristic HUD border with corners and diagnostic line work.</desc>
   <g id="background">
-    <rect x="0" y="0" width="900" height="120" fill="none"/>
+    <rect width="1200" height="600" fill="#0D1117" />
+    <rect x="12" y="12" width="1176" height="576" rx="18" fill="none" stroke="#00FFFF" stroke-opacity="0.28" />
   </g>
-  <g id="hud" stroke="#00FFFF" stroke-width="2" fill="none">
-    <path d="M4 30 V6 H30"/>
-    <path d="M896 30 V6 H870"/>
-    <path d="M4 90 V114 H30"/>
-    <path d="M896 90 V114 H870"/>
+  <g id="grid">
+    <path d="M60 60H1140" stroke="#00FFFF" stroke-opacity="0.16" />
+    <path d="M60 540H1140" stroke="#00FFFF" stroke-opacity="0.16" />
+    <path d="M60 60V540" stroke="#00FFFF" stroke-opacity="0.16" />
+    <path d="M1140 60V540" stroke="#00FFFF" stroke-opacity="0.16" />
   </g>
-  <g id="ticks" stroke="#00A3FF" stroke-width="1" opacity="0.6">
-    <line x1="40" y1="6" x2="40" y2="14"/>
-    <line x1="60" y1="6" x2="60" y2="14"/>
-    <line x1="80" y1="6" x2="80" y2="14"/>
-    <line x1="820" y1="6" x2="820" y2="14"/>
-    <line x1="840" y1="6" x2="840" y2="14"/>
-    <line x1="860" y1="6" x2="860" y2="14"/>
+  <g id="frame">
+    <path d="M85 85H250V110H150V250H85V85Z" fill="none" stroke="#00FFFF" stroke-width="3"/>
+    <path d="M1115 85H950V110H1050V250H1115V85Z" fill="none" stroke="#00FFFF" stroke-width="3"/>
+    <path d="M85 515H250V490H150V350H85V515Z" fill="none" stroke="#00FFFF" stroke-width="3"/>
+    <path d="M1115 515H950V490H1050V350H1115V515Z" fill="none" stroke="#00FFFF" stroke-width="3"/>
+    <path d="M600 60V540" stroke="#00FFFF" stroke-opacity="0.15" />
+    <path d="M60 300H1140" stroke="#00FFFF" stroke-opacity="0.15" />
   </g>
-  <g id="label" font-family="JetBrains Mono, monospace" font-size="10" fill="#8B949E">
-    <text x="450" y="16" text-anchor="middle">SYS//MODULE-FRAME</text>
+  <g id="accent">
+    <rect x="120" y="120" width="450" height="10" rx="5" fill="#00FFFF" opacity="0.45" />
+    <rect x="120" y="470" width="450" height="10" rx="5" fill="#00FFFF" opacity="0.45" />
+    <rect x="730" y="120" width="350" height="10" rx="5" fill="#00A3FF" opacity="0.45" />
+    <rect x="730" y="470" width="350" height="10" rx="5" fill="#00A3FF" opacity="0.45" />
   </g>
 </svg>

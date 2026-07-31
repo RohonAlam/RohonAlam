@@ -1,49 +1,33 @@
-<svg width="900" height="260" viewBox="0 0 900 260" xmlns="http://www.w3.org/2000/svg">
-  <!-- ============================================================
-       modules.svg — ACTIVE MODULES progress bars (Section 4)
-       Percentages mirror assets/config.md → MODULES table.
-       Update <rect class="fill"> widths (max 500) to change values.
-       ============================================================ -->
+<!--
+  modules.svg
+  Diagnostic module overview panel for AI system modules.
+  Groups: background, title, bars, text.
+-->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 500" role="img" aria-labelledby="title desc">
+  <title id="title">Module Diagnostics</title>
+  <desc id="desc">Structured AI module diagnostics with progress bars.</desc>
   <g id="background">
-    <rect x="0" y="0" width="900" height="260" rx="10" fill="#0D1117" stroke="#00A3FF" stroke-opacity="0.35"/>
+    <rect width="1200" height="500" fill="#0D1117" />
+    <rect x="20" y="20" width="1160" height="460" rx="14" fill="none" stroke="#00FFFF" stroke-opacity="0.32" />
   </g>
-  <g id="text" font-family="JetBrains Mono, monospace" font-size="13">
-    <text x="30" y="34" fill="#00FFFF" font-size="15" font-weight="bold">ACTIVE MODULES</text>
+  <g id="title">
+    <text x="60" y="80" fill="#00FFFF" font-family="JetBrains Mono, Fira Code, monospace" font-size="28">ACTIVE MODULES</text>
+  </g>
+  <g id="bars">
+    <text x="60" y="150" fill="#FFFFFF" font-family="JetBrains Mono, Fira Code, monospace" font-size="20">Computer Vision</text>
+    <rect x="360" y="132" width="700" height="18" rx="9" fill="#0A121A" stroke="#00FFFF" stroke-opacity="0.35" />
+    <rect x="360" y="132" width="644" height="18" rx="9" fill="#00FFFF" />
 
-    <!-- Computer Vision 90% -->
-    <text x="30" y="66" fill="#FFFFFF">Computer Vision</text>
-    <rect x="260" y="54" width="500" height="14" rx="4" fill="#161B22"/>
-    <rect x="260" y="54" width="450" height="14" rx="4" fill="#00FFFF"/>
-    <text x="772" y="66" fill="#8B949E">90%</text>
+    <text x="60" y="220" fill="#FFFFFF" font-family="JetBrains Mono, Fira Code, monospace" font-size="20">Robotics</text>
+    <rect x="360" y="202" width="700" height="18" rx="9" fill="#0A121A" stroke="#00FFFF" stroke-opacity="0.35" />
+    <rect x="360" y="202" width="602" height="18" rx="9" fill="#00A3FF" />
 
-    <!-- Robotics 85% -->
-    <text x="30" y="98" fill="#FFFFFF">Robotics</text>
-    <rect x="260" y="86" width="500" height="14" rx="4" fill="#161B22"/>
-    <rect x="260" y="86" width="425" height="14" rx="4" fill="#00FFFF"/>
-    <text x="772" y="98" fill="#8B949E">85%</text>
+    <text x="60" y="290" fill="#FFFFFF" font-family="JetBrains Mono, Fira Code, monospace" font-size="20">SLAM</text>
+    <rect x="360" y="272" width="700" height="18" rx="9" fill="#0A121A" stroke="#00FFFF" stroke-opacity="0.35" />
+    <rect x="360" y="272" width="546" height="18" rx="9" fill="#00FFFF" />
 
-    <!-- SLAM 75% -->
-    <text x="30" y="130" fill="#FFFFFF">SLAM</text>
-    <rect x="260" y="118" width="500" height="14" rx="4" fill="#161B22"/>
-    <rect x="260" y="118" width="375" height="14" rx="4" fill="#00A3FF"/>
-    <text x="772" y="130" fill="#8B949E">75%</text>
-
-    <!-- NeRF 60% -->
-    <text x="30" y="162" fill="#FFFFFF">NeRF</text>
-    <rect x="260" y="150" width="500" height="14" rx="4" fill="#161B22"/>
-    <rect x="260" y="150" width="300" height="14" rx="4" fill="#00A3FF"/>
-    <text x="772" y="162" fill="#8B949E">60%</text>
-
-    <!-- Gaussian Splatting 50% -->
-    <text x="30" y="194" fill="#FFFFFF">Gaussian Splatting</text>
-    <rect x="260" y="182" width="500" height="14" rx="4" fill="#161B22"/>
-    <rect x="260" y="182" width="250" height="14" rx="4" fill="#00A3FF"/>
-    <text x="772" y="194" fill="#8B949E">50%</text>
-
-    <!-- Neural Rendering 70% -->
-    <text x="30" y="226" fill="#FFFFFF">Neural Rendering</text>
-    <rect x="260" y="214" width="500" height="14" rx="4" fill="#161B22"/>
-    <rect x="260" y="214" width="350" height="14" rx="4" fill="#00FFFF"/>
-    <text x="772" y="226" fill="#8B949E">70%</text>
+    <text x="60" y="360" fill="#FFFFFF" font-family="JetBrains Mono, Fira Code, monospace" font-size="20">Neural Rendering</text>
+    <rect x="360" y="342" width="700" height="18" rx="9" fill="#0A121A" stroke="#00FFFF" stroke-opacity="0.35" />
+    <rect x="360" y="342" width="560" height="18" rx="9" fill="#00FF88" />
   </g>
 </svg>

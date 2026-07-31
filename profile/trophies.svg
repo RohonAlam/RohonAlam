@@ -1,20 +1,32 @@
-<svg width="900" height="200" viewBox="0 0 900 200" xmlns="http://www.w3.org/2000/svg">
-  <!-- ============================================================
-       profile/trophies.svg
-       PLACEHOLDER — this file is regenerated automatically by
-       .github/workflows/profile.yml (the "Generate Trophies" step)
-       using the ryo-ma/github-profile-trophy generator. Do not
-       hand-edit; your changes will be overwritten on the next run.
-       ============================================================ -->
+<!--
+  trophies.svg
+  Achievement display panel for GitHub profile workbench.
+  Groups: background, frame, text, shine.
+-->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 400" role="img" aria-labelledby="title desc">
+  <title id="title">AI Trophies</title>
+  <desc id="desc">Futuristic trophy showcase panel with sci-fi accent lines.</desc>
   <g id="background">
-    <rect width="900" height="200" fill="#0D1117" rx="10" stroke="#00A3FF" stroke-opacity="0.35"/>
+    <rect width="1200" height="400" fill="#0D1117" />
+    <rect x="18" y="18" width="1164" height="364" rx="16" fill="none" stroke="#00FFFF" stroke-opacity="0.3" />
   </g>
-  <g id="text" font-family="JetBrains Mono, monospace">
-    <text x="450" y="95" text-anchor="middle" fill="#00FFFF" font-size="16" font-weight="bold">
-      TROPHIES — AWAITING FIRST WORKFLOW RUN
-    </text>
-    <text x="450" y="120" text-anchor="middle" fill="#8B949E" font-size="12">
-      Push to main or wait for the daily schedule to populate this asset.
-    </text>
+  <g id="frame">
+    <rect x="80" y="90" width="220" height="220" rx="14" fill="#101821" stroke="#00FFFF" stroke-opacity="0.4" />
+    <rect x="340" y="90" width="220" height="220" rx="14" fill="#101821" stroke="#00FFFF" stroke-opacity="0.4" />
+    <rect x="600" y="90" width="220" height="220" rx="14" fill="#101821" stroke="#00FFFF" stroke-opacity="0.4" />
+    <rect x="860" y="90" width="220" height="220" rx="14" fill="#101821" stroke="#00FFFF" stroke-opacity="0.4" />
+  </g>
+  <g id="text">
+    <text x="80" y="66" fill="#00FFFF" font-family="JetBrains Mono, Fira Code, monospace" font-size="28">TROPHY CACHE</text>
+    <text x="110" y="150" fill="#FFFFFF" font-family="JetBrains Mono, Fira Code, monospace" font-size="22">Vision</text>
+    <text x="370" y="150" fill="#FFFFFF" font-family="JetBrains Mono, Fira Code, monospace" font-size="22">Robotics</text>
+    <text x="630" y="150" fill="#FFFFFF" font-family="JetBrains Mono, Fira Code, monospace" font-size="22">Research</text>
+    <text x="890" y="150" fill="#FFFFFF" font-family="JetBrains Mono, Fira Code, monospace" font-size="22">Systems</text>
+  </g>
+  <g id="shine">
+    <circle cx="190" cy="240" r="48" fill="#00FF88" fill-opacity="0.28" />
+    <circle cx="450" cy="240" r="48" fill="#00A3FF" fill-opacity="0.28" />
+    <circle cx="710" cy="240" r="48" fill="#00FFFF" fill-opacity="0.28" />
+    <circle cx="970" cy="240" r="48" fill="#00FF88" fill-opacity="0.28" />
   </g>
 </svg>

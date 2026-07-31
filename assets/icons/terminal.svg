@@ -1,0 +1,11 @@
+<!--
+  terminal-icon.svg
+  Terminal icon for the AI OS toolkit.
+-->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" role="img" aria-label="Terminal icon">
+  <rect width="128" height="128" rx="24" fill="#0D1117" stroke="#00FFFF" stroke-opacity="0.4" />
+  <rect x="18" y="24" width="92" height="80" rx="12" fill="#081017" stroke="#00A3FF" stroke-width="4" />
+  <text x="32" y="54" fill="#00FFFF" font-family="JetBrains Mono, Fira Code, monospace" font-size="16">&gt;_</text>
+  <path d="M38 76L54 88L38 100" fill="none" stroke="#00FF88" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" />
+  <path d="M60 76H82" stroke="#00FFFF" stroke-width="4" stroke-linecap="round" />
+</svg>

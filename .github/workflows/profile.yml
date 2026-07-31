@@ -1,76 +1,36 @@
-# ==============================================================================
-# .github/workflows/profile.yml
-#
-# Regenerates the two assets that CANNOT be served as a live third-party <img>
-# URL: the contribution "snake" animation and the trophies SVG. Everything
-# else in README.md (GitHub Stats, Streak, Activity Graph, LeetCode) is a live
-# embed pointed at a rendering service, so it needs no workflow.
-#
-# NOTE ON VERIFICATION: I have not run this workflow and cannot confirm these
-# action versions/inputs are current as of today — GitHub Action APIs change.
-# Before relying on this, open each action's README on its repo and confirm
-# the `uses:` tag and `with:` inputs still match. The two actions below are
-# real, commonly-used community actions (Platane/snk for the snake, and the
-# github-profile-trophy generator for trophies), not invented ones — but
-# their exact current syntax should still be verified against the source.
-# ==============================================================================
-
-name: Generate AI OS Profile Assets
+name: GitHub Profile Automation
 
 on:
   schedule:
-    - cron: "0 0 * * *"   # once a day, midnight UTC
-  push:
-    branches:
-      - main
-  workflow_dispatch: {}     # allow manual runs from the Actions tab
+    - cron: '0 0 * * *'
+  workflow_dispatch:
 
 jobs:
-  generate-snake:
+  profile-metrics:
     runs-on: ubuntu-latest
     permissions:
       contents: write
-    steps:
-      - name: Generate contribution snake
-        uses: Platane/snk@v3
-        with:
-          github_user_name: RohonAlam
-          outputs: |
-            profile/snake.svg
-            profile/snake-dark.svg?palette=github-dark
 
-      - name: Push snake SVG to output branch
-        uses: crazy-max/ghaction-github-pages@v4
-        with:
-          target_branch: output
-          build_dir: profile
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-
-  generate-trophies:
-    runs-on: ubuntu-latest
-    permissions:
-      contents: write
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Generate trophies SVG
-        uses: ryo-ma/github-profile-trophy@v1
-        with:
-          username: RohonAlam
-          theme: onedark
-          column: 4
-          margin-w: 12
-          margin-h: 12
-          no-frame: true
-          no-bg: false
-          output: profile/trophies.svg
+      - name: Generate GitHub Snake
+        uses: github-profile-3d-contrib/github-profile-3d-contrib@v1.0
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: Commit updated trophies asset
-        run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add profile/trophies.svg
-          git diff --staged --quiet || git commit -m "chore: refresh trophies.svg [automated]"
-          git push
+      - name: Generate trophies
+        uses: Platane/snk@v3
+        with:
+          github_user_name: RohonAlam
+          outputs: >-
+            profile-3d-contrib/profile-gitcon.svg
+            profile-3d-contrib/profile-snake.svg
+            profile-3d-contrib/profile-trophy.svg
+
+      - name: Upload generated artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: generated-profile-assets
+          path: profile-3d-contrib/
