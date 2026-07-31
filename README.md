@@ -119,7 +119,7 @@ LINK         ADD_LINK
 <div align="center">
 
 <!-- Pin cards — replace repo-1 / repo-2 with your real repo names -->
-<img src="https://github-readme-stats.vercel.app/api/pin/?username=RohonAlam&repo=repo-1&theme=github_dark&hide_border=true&bg_color=0D1117&title_color=00FFFF&text_color=FFFFFF" height="150"/>
+<img src="https://github-readme-stats.vercel.app/api/pin/?username=RohonAlam&repo=LeetCode&theme=github_dark&hide_border=true&bg_color=0D1117&title_color=00FFFF&text_color=FFFFFF" height="150"/>
 <img src="https://github-readme-stats.vercel.app/api/pin/?username=RohonAlam&repo=repo-2&theme=github_dark&hide_border=true&bg_color=0D1117&title_color=00FFFF&text_color=FFFFFF" height="150"/>
 
 </div>
