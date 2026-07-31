@@ -1,39 +1,29 @@
-<!--
-  radar.svg
-  Animated radar-style element for the profile system diagnostics.
-  Groups: background, radar, rings, sweep, glow.
--->
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600" role="img" aria-labelledby="title desc">
-  <title id="title">Radar Scan</title>
-  <desc id="desc">Animated radar scanning pattern for a cybernetic UI panel.</desc>
+<svg width="220" height="220" viewBox="0 0 220 220" xmlns="http://www.w3.org/2000/svg">
+  <!-- radar.svg — standalone animated radar sweep -->
   <defs>
-    <radialGradient id="radarFill" cx="50%" cy="50%" r="50%">
-      <stop offset="0%" stop-color="#00FFFF" stop-opacity="0.22" />
-      <stop offset="100%" stop-color="#0D1117" stop-opacity="0" />
+    <radialGradient id="radarBg" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#0D1117"/>
+      <stop offset="100%" stop-color="#05070A"/>
     </radialGradient>
-    <filter id="glow"><feGaussianBlur stdDeviation="4" result="blur"/><feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
-    <clipPath id="scanClip"><circle cx="300" cy="300" r="240" /></clipPath>
   </defs>
   <g id="background">
-    <rect width="600" height="600" fill="#0D1117" />
-    <circle cx="300" cy="300" r="240" fill="url(#radarFill)" stroke="#00FFFF" stroke-opacity="0.35" />
+    <circle cx="110" cy="110" r="108" fill="url(#radarBg)" stroke="#00A3FF" stroke-opacity="0.4"/>
   </g>
-  <g id="radar">
-    <circle cx="300" cy="300" r="220" fill="none" stroke="#00FFFF" stroke-opacity="0.25" />
-    <circle cx="300" cy="300" r="160" fill="none" stroke="#00FFFF" stroke-opacity="0.20" />
-    <circle cx="300" cy="300" r="100" fill="none" stroke="#00FFFF" stroke-opacity="0.18" />
-    <circle cx="300" cy="300" r="40" fill="none" stroke="#00FFFF" stroke-opacity="0.18" />
-    <path d="M300 300L470 130" stroke="#00FFFF" stroke-opacity="0.35" />
-    <path d="M300 300L450 420" stroke="#00A3FF" stroke-opacity="0.28" />
-    <path d="M300 300L210 160" stroke="#00FFFF" stroke-opacity="0.20" />
-    <path d="M300 300L150 430" stroke="#00A3FF" stroke-opacity="0.24" />
+  <g id="hud" stroke="#00A3FF" stroke-width="1" fill="none" opacity="0.55">
+    <circle cx="110" cy="110" r="80"/>
+    <circle cx="110" cy="110" r="54"/>
+    <circle cx="110" cy="110" r="28"/>
+    <line x1="10" y1="110" x2="210" y2="110"/>
+    <line x1="110" y1="10" x2="110" y2="210"/>
   </g>
-  <g id="sweep" clip-path="url(#scanClip)">
-    <path d="M300 300L300 60 A240 240 0 0 1 540 300 Z" fill="#00FFFF" fill-opacity="0.10" filter="url(#glow)">
-      <animateTransform attributeName="transform" type="rotate" from="0 300 300" to="360 300 300" dur="8s" repeatCount="indefinite"/>
-    </path>
+  <g id="blips" fill="#00FF88">
+    <circle cx="150" cy="80" r="3"><animate attributeName="opacity" values="0;1;0" dur="2.4s" repeatCount="indefinite"/></circle>
+    <circle cx="70" cy="150" r="3"><animate attributeName="opacity" values="0;1;0" dur="3.1s" begin="0.6s" repeatCount="indefinite"/></circle>
+    <circle cx="140" cy="150" r="2.5"><animate attributeName="opacity" values="0;1;0" dur="2.8s" begin="1.1s" repeatCount="indefinite"/></circle>
   </g>
-  <g id="glow">
-    <circle cx="300" cy="300" r="12" fill="#00FF88" opacity="0.9" filter="url(#glow)" />
+  <g id="sweep">
+    <path d="M110 110 L110 30 A80 80 0 0 1 165 55 Z" fill="#00FFFF" opacity="0.28"/>
+    <animateTransform attributeName="transform" attributeType="XML" type="rotate" from="0 110 110" to="360 110 110" dur="2.5s" repeatCount="indefinite"/>
   </g>
+  <circle cx="110" cy="110" r="3" fill="#00FFFF"/>
 </svg>

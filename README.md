@@ -1,170 +1,205 @@
+<div align="center">
+
+<img src="assets/banner.svg" alt="AI Operating System banner" width="100%"/>
+
+</div>
+
 <!--
-  AI OS GitHub Profile Repository
-  Theme: JARVIS / NVIDIA Omniverse / ROS Diagnostics / Cyberpunk HUD
-  Keep all values editable via assets/config.md.
+  ============================================================================
+  README.md — AI OS Profile
+  Every value in this file is sourced from assets/config.md. Edit that file
+  first, then mirror the change here (GitHub renders README.md standalone —
+  it cannot pull values from config.md at render time).
+
+  A note on the live widgets in this file: github-readme-stats,
+  github-readme-streak-stats, github-readme-activity-graph, LeetCode card
+  renderers, and visitor-badge are third-party community services, not
+  Anthropic or GitHub products. I can't guarantee their current uptime or
+  exact query-parameter syntax from here — if a badge doesn't render after
+  you publish this, check the service's own repo for its current usage docs.
+  ============================================================================
 -->
 
 <div align="center">
-  <img src="assets/banner.svg" alt="AI Operating System Banner" width="100%" />
+
+![Typing SVG](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=20&duration=2500&pause=800&color=00FFFF&center=true&vCenter=true&width=600&lines=Booting+AI+Research+Workstation...;Loading+Computer+Vision+Engine...;Loading+Robotics+Runtime...;SYSTEM+READY.)
+
 </div>
 
-<div align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=20&duration=3000&pause=1000&color=00FFFF&center=true&vCenter=true&multiline=true&width=900&lines=AI+OPERATING+SYSTEM+v2.0;Boot+Sequence...;██████████████████████████+100%;✓+Computer+Vision+Engine;✓+Robotics+Runtime;✓+Deep+Learning+Runtime;✓+Neural+Rendering;✓+Research+Database;✓+GitHub+API;✓+LeetCode+Knowledge+Base;SYSTEM+READY." alt="Boot screen typing animation" />
-</div>
+<img src="assets/divider.svg" width="100%"/>
 
-## SYSTEM INFORMATION
+## `[ SECTION 1 ]` BOOT SCREEN
 
-<div align="center">
-  <img src="assets/terminal.svg" alt="System terminal frame" width="100%" />
-</div>
+```
+AI OPERATING SYSTEM v2.0
+Boot Sequence...
+[██████████████████████████] 100%
 
-```text
-SYSTEM INFORMATION
+✓ Computer Vision Engine
+✓ Robotics Runtime
+✓ Deep Learning Runtime
+✓ Neural Rendering
+✓ Research Database
+✓ GitHub API
+✓ LeetCode Knowledge Base
 
-USER         : Rohon Alam
-ROLE         : AI/Robotics Research Engineer
-INSTITUTE    : IIT Guwahati
-STATUS       : Open to Research & Full-time Roles
-MISSION      : 3D Urban Reconstruction & AI Systems
-LOCATION     : Assam, India
-UPTIME       : 24.7 days
-ACCESS LEVEL : ADMIN / RESEARCH
+SYSTEM READY.
 ```
 
-## SYSTEM DASHBOARD
+<img src="assets/divider.svg" width="100%"/>
 
-<table>
-  <tr>
-    <td width="50%">
-      <img src="https://github-readme-stats.vercel.app/api?username=RohonAlam&show_icons=true&theme=radical&hide_border=true&title_color=00FFFF&icon_color=00A3FF&text_color=FFFFFF&bg_color=0D1117" alt="GitHub Stats" />
-    </td>
-    <td width="50%">
-      <img src="https://github-readme-streak-stats.herokuapp.com/?user=RohonAlam&theme=radical&hide_border=true&stroke=00FFFF&ring=00A3FF&fire=00FF88&currStreakLabel=FFFFFF&background=0D1117" alt="GitHub Streak" />
-    </td>
-  </tr>
-</table>
+## `[ SECTION 2 ]` SYSTEM INFORMATION
 
-<table>
-  <tr>
-    <td width="50%">
-      <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=RohonAlam&layout=compact&theme=radical&hide_border=true&title_color=00FFFF&text_color=FFFFFF&bg_color=0D1117" alt="Language stats" />
-    </td>
-    <td width="50%">
-      <img src="https://github-readme-activity-graph.vercel.app/graph?username=RohonAlam&theme=github-dark&hide_border=true&bg_color=0D1117&color=00FFFF&line=00A3FF&point=00FF88" alt="Activity graph" />
-    </td>
-  </tr>
-</table>
+<img src="assets/terminal.svg" width="100%"/>
 
-<table>
-  <tr>
-    <td width="50%">
-      <img src="https://leetcard.jacoblin.cool/RohonAlam?theme=dark&font=JetBrains%20Mono&ext=activity" alt="LeetCode stats" />
-    </td>
-    <td width="50%">
-      <img src="https://komarev.com/ghpvc/?username=RohonAlam&label=VISITOR+COUNT&color=00FFFF&style=for-the-badge" alt="Visitor Counter" />
-    </td>
-  </tr>
-</table>
+<img src="assets/divider.svg" width="100%"/>
+
+## `[ SECTION 3 ]` SYSTEM DASHBOARD
 
 <div align="center">
-  <img src="assets/modules.svg" alt="Module diagnostics panel" width="100%" />
+
+<img src="https://github-readme-stats.vercel.app/api?username=RohonAlam&show_icons=true&theme=github_dark&hide_border=true&bg_color=0D1117&title_color=00FFFF&icon_color=00A3FF&text_color=FFFFFF&cache_seconds=86400" height="165"/>
+<img src="https://streak-stats.demolab.com/?user=RohonAlam&theme=github-dark-blue&hide_border=true&background=0D1117&ring=00FFFF&fire=00FF88&currStreakLabel=00FFFF" height="165"/>
+
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=RohonAlam&layout=compact&theme=github_dark&hide_border=true&bg_color=0D1117&title_color=00FFFF&text_color=FFFFFF&cache_seconds=86400" height="165"/>
+
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=RohonAlam&theme=github-compact&bg_color=0D1117&color=00FFFF&line=00A3FF&point=00FF88&hide_border=true" width="100%"/>
+
+<!-- LeetCode card — replace ADD_YOUR_LEETCODE_USERNAME in assets/config.md, then here -->
+<img src="https://leetcard.jacoblin.cool/ADD_YOUR_LEETCODE_USERNAME?theme=dark&font=JetBrains%20Mono&ext=heatmap" width="100%"/>
+
+<img src="profile/snake-dark.svg" width="100%"/>
+
+<img src="https://komarev.com/ghpvc/?username=RohonAlam&label=VISITOR+COUNT&color=00A3FF&style=flat-square" />
+
 </div>
 
-<div align="center">
-  <img src="profile/trophies.svg" alt="Achievement trophies" width="100%" />
-</div>
+<img src="assets/divider.svg" width="100%"/>
 
-## ACTIVE MODULES
+## `[ SECTION 4 ]` ACTIVE MODULES
 
-```text
-Computer Vision           ██████████  92%
-Robotics                  █████████   86%
-SLAM                      ████████    78%
-NeRF                      ███████     72%
-Gaussian Splatting        ██████      60%
-Neural Rendering          ████████    80%
+<img src="assets/modules.svg" width="100%"/>
+
+<img src="assets/divider.svg" width="100%"/>
+
+## `[ SECTION 5 ]` PROJECT DATABASE
+
 ```
+[001] ─────────────────────────────────────────────────────────────
+NAME         3D-Urban-Reconstruction
+STATUS       ACTIVE
+DESCRIPTION  Reconstructing urban-scale 3D scenes from monocular
+             video for my M.Tech research at IIT Guwahati.
+TECH_STACK   Python · PyTorch · NeRF / 3D Gaussian Splatting · OpenCV
+LINK         ADD_REPO_LINK
+─────────────────────────────────────────────────────────────────
 
-## PROJECT DATABASE
+[002] ─────────────────────────────────────────────────────────────
+NAME         ADD_PROJECT_NAME
+STATUS       ADD_STATUS
+DESCRIPTION  ADD_DESCRIPTION
+TECH_STACK   ADD_STACK
+LINK         ADD_LINK
+─────────────────────────────────────────────────────────────────
 
-```text
-[001] NAME        : UrbanRecon-3D
-     STATUS      : ACTIVE
-     DESCRIPTION : 3D urban reconstruction with neural geometry
-     TECH STACK  : Python / OpenCV / PyTorch / CUDA
-     LINK        : https://github.com/RohonAlam/UrbanRecon-3D
-
-[002] NAME        : ROS Diagnostics Suite
-     STATUS      : STABLE
-     DESCRIPTION : Robot runtime, diagnostics, and telemetry pipeline
-     TECH STACK  : C++ / ROS 2 / Docker / Linux
-     LINK        : https://github.com/RohonAlam/ROS-Diagnostics-Suite
-
-[003] NAME        : AI Vision Lab
-     STATUS      : RESEARCH
-     DESCRIPTION : CV experiments, benchmark tracking, model evaluation
-     TECH STACK  : Python / PyTorch / OpenCV / Docker
-     LINK        : https://github.com/RohonAlam/AI-Vision-Lab
+[003] ─────────────────────────────────────────────────────────────
+NAME         ADD_PROJECT_NAME
+STATUS       ADD_STATUS
+DESCRIPTION  ADD_DESCRIPTION
+TECH_STACK   ADD_STACK
+LINK         ADD_LINK
+─────────────────────────────────────────────────────────────────
 ```
 
 <div align="center">
-  <img src="https://github-readme-pin.vercel.app/api?username=RohonAlam&repo=UrbanRecon-3D&theme=radical&show_owner=true" alt="Pinned project card" />
-  <img src="https://github-readme-pin.vercel.app/api?username=RohonAlam&repo=AI-Vision-Lab&theme=radical&show_owner=true" alt="Pinned project card" />
+
+<!-- Pin cards — replace repo-1 / repo-2 with your real repo names -->
+<img src="https://github-readme-stats.vercel.app/api/pin/?username=RohonAlam&repo=repo-1&theme=github_dark&hide_border=true&bg_color=0D1117&title_color=00FFFF&text_color=FFFFFF" height="150"/>
+<img src="https://github-readme-stats.vercel.app/api/pin/?username=RohonAlam&repo=repo-2&theme=github_dark&hide_border=true&bg_color=0D1117&title_color=00FFFF&text_color=FFFFFF" height="150"/>
+
 </div>
 
-## SKILL MATRIX
+> **Not yet filled in:** rows `[002]` and `[003]`, and the `ADD_REPO_LINK` /
+> `repo-1` / `repo-2` placeholders. I don't have your other project details or
+> repo names on record, so I left them as edit markers rather than guessing.
 
-```text
-Python          ██████████   90%
-C++             █████████    85%
-ROS             ████████     78%
-OpenCV          █████████    84%
-PyTorch         ████████     76%
-Docker          ███████      68%
-Linux           █████████    88%
-Git             █████████    82%
+<img src="assets/divider.svg" width="100%"/>
+
+## `[ SECTION 6 ]` SKILL MATRIX
+
+```
+Python              ██████████████████░░  95%
+C++                 █████████████████░░░  85%
+ROS                 ████████████████░░░░  80%
+OpenCV               █████████████████░░░  85%
+PyTorch             ███████████████░░░░░  75%
+Docker              ████████████░░░░░░░░  60%
+Linux               ████████████████░░░░  80%
+Git                 █████████████████░░░  85%
 ```
 
-## RESEARCH TIMELINE
+> Levels above are round, editable placeholders (see `assets/config.md` →
+> SKILL MATRIX) — not a measured benchmark. Adjust to your honest level.
 
-```text
-2023  AI Voice Assistant
-     ↓
-2024  MERN Stack + Full-Stack Systems
-     ↓
-2025  IIT Guwahati Research Track
-     ↓
-2026  3D Urban Reconstruction
-     ↓
-FUTURE Research Publication + Autonomous Vision Systems
+<img src="assets/divider.svg" width="100%"/>
+
+## `[ SECTION 7 ]` RESEARCH TIMELINE
+
+```
+2023 ── AI Voice Assistant
+  │
+2024 ── MERN Stack Development
+  │
+2025 ── Joined IIT Guwahati (M.Tech, Robotics & AI)
+  │
+2026 ── 3D Urban Reconstruction using Video Data
+  │
+Future ── Research Publication
 ```
 
-## CURRENT GOALS
+<img src="assets/divider.svg" width="100%"/>
 
-- [x] Build a production-grade robotic perception stack
-- [x] Ship a neural reconstruction pipeline
-- [x] Log and visualize runtime diagnostics cleanly
-- [ ] Publish a research-ready benchmark package
-- [ ] Curate a portfolio of applied AI systems
-- [ ] Launch a reusable robotics AI operating toolkit
+## `[ SECTION 8 ]` CURRENT GOALS
 
-## CONTACT
+- [ ] `ADD_GOAL_1`
+- [ ] `ADD_GOAL_2`
+- [ ] `ADD_GOAL_3`
 
-```text
-GitHub    : github.com/RohonAlam
-LinkedIn  : linkedin.com/in/rohon-alam
-LeetCode  : leetcode.com/u/RohonAlam
-Email     : rohonalam.dev@gmail.com
+> Left blank on purpose — I don't have your actual 2026 goals on file. Fill
+> these in via `assets/config.md`, then mirror them here.
+
+<img src="assets/divider.svg" width="100%"/>
+
+## `[ SECTION 9 ]` CONTACT
+
 ```
-
-## FOOTER
+$ cat contact.json
+{
+  "github":   "https://github.com/RohonAlam",
+  "linkedin": "ADD_YOUR_LINKEDIN_URL",
+  "leetcode": "ADD_YOUR_LEETCODE_USERNAME",
+  "email":    "ADD_YOUR_EMAIL"
+}
+```
 
 <div align="center">
-  <img src="assets/footer.svg" alt="Footer terminal" width="100%" />
+
+<a href="https://github.com/RohonAlam"><img src="assets/icons/github.svg" width="28" alt="GitHub"/></a>
+&nbsp;&nbsp;
+<a href="#"><img src="assets/icons/linkedin.svg" width="28" alt="LinkedIn — add your URL in assets/config.md"/></a>
+&nbsp;&nbsp;
+<a href="#"><img src="assets/icons/leetcode.svg" width="28" alt="LeetCode — add your username in assets/config.md"/></a>
+&nbsp;&nbsp;
+<a href="#"><img src="assets/icons/email.svg" width="28" alt="Email — add your address in assets/config.md"/></a>
+
 </div>
 
-```text
-LAST LOGIN      : VISITOR CONNECTED
-VERSION         : AI OS v2.0
-STATUS          : READY
-```
+<img src="assets/divider.svg" width="100%"/>
+
+## `[ SECTION 10 ]` FOOTER
+
+<img src="assets/footer.svg" width="100%"/>
+
+<div align="center">
+<sub>Generated as an AI OS–styled GitHub profile. All values editable in <code>assets/config.md</code>.</sub>
+</div>
