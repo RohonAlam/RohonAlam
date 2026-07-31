@@ -91,54 +91,12 @@ width="95%"/>
 
 ## 📁 PROJECT DATABASE
 
-```text
-[001] ───────────────────────────────────────────────────────────────
-
-NAME         3D Terrain Generator
-STATUS       ● ONLINE
-DESCRIPTION  Desktop application that converts DEM data into
-             printable 3D terrain models.
-
-TECH STACK   Python • PyQt • OpenCV • GIS
-
-REPOSITORY   https://github.com/RohonAlam/3D-Terrain-Generator
-
-─────────────────────────────────────────────────────────────────────
-```
-
-➡️ **Repository:** https://github.com/RohonAlam/3D-Terrain-Generator
-
-```text
-[002] ───────────────────────────────────────────────────────────────
-
-NAME         LeetCode
-STATUS       ● ACTIVE
-DESCRIPTION  Collection of DSA solutions with detailed notes.
-
-TECH STACK   Python • C++ • Algorithms
-
-REPOSITORY   https://github.com/RohonAlam/LeetCode
-
-─────────────────────────────────────────────────────────────────────
-```
-
-➡️ **Repository:** https://github.com/RohonAlam/LeetCode
-
-```text
-[003] ───────────────────────────────────────────────────────────────
-
-NAME         AI Voice Assistant
-STATUS       ● STABLE
-DESCRIPTION  Offline AI voice assistant built in Python.
-
-TECH STACK   Python • SpeechRecognition • PyQt
-
-REPOSITORY   https://github.com/RohonAlam/AI-Voice-Assistant
-
-─────────────────────────────────────────────────────────────────────
-```
-
-➡️ **Repository:** https://github.com/RohonAlam/AI-Voice-Assistant
+| ID | Project | Status | Repository |
+|:--:|---------|:------:|-----------|
+| 001 | **3D Terrain Generator** | 🟢 Online | **[Open Repository](https://github.com/RohonAlam/3D-Terrain-Generator)** |
+| 002 | **LeetCode** | 🟢 Active | **[Open Repository](https://github.com/RohonAlam/LeetCode)** |
+| 003 | **AI Voice Assistant** | 🟢 Stable | **[Open Repository](https://github.com/RohonAlam/AI-Voice-Assistant)** |
+| 004 | **E-Commerce Project** | 🟢 Stable | **[Open Repository](https://github.com/RohonAlam/E_Commerce_Project)** |
 
 <img src="assets/divider.svg" width="100%"/>
 
