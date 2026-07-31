@@ -87,7 +87,6 @@ width="95%"/>
 
 <img src="assets/divider.svg" width="100%"/>
 
-```
 
 ## 📁 PROJECT DATABASE
 
@@ -116,8 +115,6 @@ STATUS       ● ACTIVE
 DESCRIPTION  Collection of DSA solutions with detailed notes.
 
 TECH STACK   Python • C++ • Algorithms
-
-REPOSITORY   https://github.com/RohonAlam/LeetCode
 
 ─────────────────────────────────────────────────────────────────────
 ```
