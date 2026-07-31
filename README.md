@@ -36,14 +36,15 @@
 
 <div align="center">
 
-<img src="./profile/stats.svg" width="48%" />
-<img src="./profile/streak.svg" width="48%" />
+<img width="48%" src="https://github-stats-extended.vercel.app/api?username=RohonAlam&show_icons=true&count_private=true&hide_border=true&bg_color=0D1117&title_color=00FFFF&icon_color=00FFFF&text_color=FFFFFF&ring_color=00FFFF&cache_seconds=1800"/>
+
+<img width="48%" src="https://streak-stats.demolab.com?user=RohonAlam&hide_border=true&background=0D1117&stroke=00FFFF&ring=00FFFF&fire=00FFFF&currStreakLabel=00FFFF&sideLabels=FFFFFF&currStreakNum=FFFFFF&sideNums=FFFFFF&dates=888888"/>
 
 </div>
 
 <div align="center">
 
-<img src="./profile/top-langs.svg" width="48%" />
+<img width="48%" src="https://github-stats-extended.vercel.app/api/top-langs/?username=RohonAlam&layout=donut&hide_border=true&bg_color=0D1117&title_color=00FFFF&text_color=FFFFFF&cache_seconds=1800"/>
 
 </div>
 
@@ -52,7 +53,9 @@
 ### 🏅 Trophies
 
 <div align="center">
-<img src="./profile/trophies.svg" width="95%" />
+
+<img width="95%" src="./profile/trophies.svg"/>
+
 </div>
 
 ---
@@ -60,7 +63,9 @@
 ### 🐍 Contribution Snake
 
 <div align="center">
-<img src="https://raw.githubusercontent.com/RohonAlam/RohonAlam/output/github-contribution-grid-snake-dark.svg" alt="snake animation" />
+
+<img src="https://raw.githubusercontent.com/RohonAlam/RohonAlam/output/github-contribution-grid-snake-dark.svg"/>
+
 </div>
 
 ---
@@ -68,7 +73,9 @@
 ### 📈 Activity Graph
 
 <div align="center">
-<img src="./profile/activity-graph.svg" width="95%" />
+
+<img width="95%" src="https://github-readme-activity-graph.vercel.app/graph?username=RohonAlam&theme=react-dark&bg_color=0D1117&color=00FFFF&line=00FFFF&point=FFFFFF&hide_border=true"/>
+
 </div>
 
 ---
@@ -76,7 +83,9 @@
 ### 🏆 LeetCode Stats
 
 <div align="center">
-<img src="./profile/leetcode.svg" width="55%" />
+
+<img width="55%" src="https://leetcard.jacoblin.cool/rohon97?theme=dark&font=Baloo&ext=heatmap"/>
+
 </div>
 
 ---
@@ -96,14 +105,15 @@
 <div align="center">
 
 <a href="https://github.com/RohonAlam/LeetCode">
-<img src="./profile/pin-leetcode.svg" width="45%" />
+<img width="45%" src="https://github-stats-extended.vercel.app/api/pin/?username=RohonAlam&repo=LeetCode&hide_border=true&bg_color=0D1117&title_color=00FFFF&icon_color=00FFFF&text_color=FFFFFF"/>
 </a>
+
 <a href="https://github.com/RohonAlam/3D-Terrain-Generator">
-<img src="./profile/pin-terrain.svg" width="45%" />
+<img width="45%" src="https://github-stats-extended.vercel.app/api/pin/?username=RohonAlam&repo=3D-Terrain-Generator&hide_border=true&bg_color=0D1117&title_color=00FFFF&icon_color=00FFFF&text_color=FFFFFF"/>
 </a>
 
 <a href="https://github.com/RohonAlam/E_Commerce_Project">
-<img src="./profile/pin-ecommerce.svg" width="45%" />
+<img width="45%" src="https://github-stats-extended.vercel.app/api/pin/?username=RohonAlam&repo=E_Commerce_Project&hide_border=true&bg_color=0D1117&title_color=00FFFF&icon_color=00FFFF&text_color=FFFFFF"/>
 </a>
 
 </div>
