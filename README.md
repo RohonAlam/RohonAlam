@@ -66,7 +66,7 @@ SYSTEM READY.
 <img src="https://github-readme-activity-graph.vercel.app/graph?username=RohonAlam&theme=github-compact&bg_color=0D1117&color=00FFFF&line=00A3FF&point=00FF88&hide_border=true" width="100%"/>
 
 <!-- LeetCode card — replace ADD_YOUR_LEETCODE_USERNAME in assets/config.md, then here -->
-<img src="https://leetcard.jacoblin.cool/ADD_YOUR_LEETCODE_USERNAME?theme=dark&font=JetBrains%20Mono&ext=heatmap" width="100%"/>
+<img src="https://leetcard.jacoblin.cool/rohon97?theme=dark&font=JetBrains%20Mono&ext=heatmap" width="100%"/>
 
 <img src="profile/snake-dark.svg" width="100%"/>
 
