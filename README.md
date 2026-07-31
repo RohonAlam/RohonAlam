@@ -217,6 +217,28 @@ Future ── Research Publication
 
 </div>
 
+## 📡 COMMUNICATION HUB
+
+<div align="center">
+
+<a href="https://github.com/RohonAlam">
+  <img src="https://img.shields.io/badge/GitHub-0D1117?style=for-the-badge&logo=github&logoColor=00FFFF" />
+</a>
+
+<a href="https://www.linkedin.com/in/rohon-alam-53a694219/">
+  <img src="https://img.shields.io/badge/LinkedIn-0D1117?style=for-the-badge&logo=linkedin&logoColor=00FFFF" />
+</a>
+
+<a href="https://leetcode.com/u/rohon97/">
+  <img src="https://img.shields.io/badge/LeetCode-0D1117?style=for-the-badge&logo=leetcode&logoColor=00FFFF" />
+</a>
+
+<a href="mailto:ra.official.9775@gmail.com">
+  <img src="https://img.shields.io/badge/Email-0D1117?style=for-the-badge&logo=gmail&logoColor=00FFFF" />
+</a>
+
+</div>
+
 <img src="assets/divider.svg" width="100%"/>
 
 ## FOOTER
