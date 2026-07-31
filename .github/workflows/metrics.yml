@@ -70,7 +70,7 @@ jobs:
         with:
           username: RohonAlam
           file: profile/trophies.svg
-          token: ${{ secrets.GITHUB_TOKEN }}
+          token: ${{ secrets.METRICS_TOKEN }}
 
       - name: Commit trophies
         run: |
