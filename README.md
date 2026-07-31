@@ -209,11 +209,11 @@ Future ── Research Publication
 
 <a href="https://github.com/RohonAlam"><img src="assets/icons/github.svg" width="28" alt="GitHub"/></a>
 &nbsp;&nbsp;
-<a href="#"><img src="assets/icons/linkedin.svg" width="28" alt="LinkedIn — add your URL in assets/config.md"/></a>
+<a href="https://www.linkedin.com/in/rohon-alam-53a694219/"><img src="assets/icons/linkedin.svg" width="28" alt="LinkedIn — add your URL in assets/config.md"/></a>
 &nbsp;&nbsp;
-<a href="#"><img src="assets/icons/leetcode.svg" width="28" alt="LeetCode — add your username in assets/config.md"/></a>
+<a href="https://leetcode.com/u/rohon97/"><img src="assets/icons/leetcode.svg" width="28" alt="LeetCode — add your username in assets/config.md"/></a>
 &nbsp;&nbsp;
-<a href="#"><img src="assets/icons/email.svg" width="28" alt="Email — add your address in assets/config.md"/></a>
+<a href="mailto:ra.official.9775@gmail.com"><img src="assets/icons/email.svg" width="28" alt="Email — add your address in assets/config.md"/></a>
 
 </div>
 
