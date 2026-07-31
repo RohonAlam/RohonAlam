@@ -22,7 +22,7 @@
     <circle cx="22" cy="17" r="6" fill="#FF5F56"/>
     <circle cx="44" cy="17" r="6" fill="#FFBD2E"/>
     <circle cx="66" cy="17" r="6" fill="#27C93F"/>
-    <text x="450" y="21" text-anchor="middle" font-family="JetBrains Mono, monospace" font-size="12" fill="#8B949E">rey@ai-os: ~/system-information</text>
+    <text x="450" y="21" text-anchor="middle" font-family="JetBrains Mono, monospace" font-size="12" fill="#8B949E">rohon@ai-os: ~/system-information</text>
   </g>
 
   <g id="hud" stroke="#00FFFF" stroke-width="1" opacity="0.5" fill="none">
@@ -30,9 +30,9 @@
   </g>
 
   <g id="text" font-family="JetBrains Mono, monospace" font-size="14">
-    <text x="36" y="80" fill="#00FF88">rey@ai-os:~$ whoami --full</text>
+    <text x="36" y="80" fill="#00FF88">rohon@ai-os:~$ whoami --full</text>
 
-    <text x="36" y="112" fill="#8B949E">USER       </text><text x="180" y="112" fill="#FFFFFF">Rey</text>
+    <text x="36" y="112" fill="#8B949E">USER       </text><text x="180" y="112" fill="#FFFFFF">Rohon Alam</text>
     <text x="36" y="136" fill="#8B949E">ROLE       </text><text x="180" y="136" fill="#FFFFFF">M.Tech Student — Robotics &amp; AI</text>
     <text x="36" y="160" fill="#8B949E">INSTITUTE  </text><text x="180" y="160" fill="#FFFFFF">Indian Institute of Technology, Guwahati</text>
     <text x="36" y="184" fill="#8B949E">STATUS     </text><text x="180" y="184" fill="#00FF88" filter="url(#glow)">ONLINE — RESEARCHING</text>
@@ -41,7 +41,7 @@
     <text x="36" y="256" fill="#8B949E">UPTIME     </text><text x="180" y="256" fill="#FFFFFF">since 2025</text>
     <text x="36" y="280" fill="#8B949E">ACCESS     </text><text x="180" y="280" fill="#00FFFF">ROOT</text>
 
-    <text x="36" y="308" fill="#00FF88">rey@ai-os:~$ <tspan fill="#FFFFFF">_</tspan></text>
+    <text x="36" y="308" fill="#00FF88">rohon@ai-os:~$ <tspan fill="#FFFFFF">_</tspan></text>
     <rect x="118" y="296" width="9" height="14" fill="#00FF88">
       <animate attributeName="opacity" values="1;0;1" dur="1s" repeatCount="indefinite"/>
     </rect>
