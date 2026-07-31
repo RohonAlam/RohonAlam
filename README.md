@@ -38,7 +38,10 @@
 
 <img width="48%" src="https://github-stats-extended.vercel.app/api?username=RohonAlam&show_icons=true&count_private=true&hide_border=true&bg_color=0D1117&title_color=00FFFF&icon_color=00FFFF&text_color=FFFFFF&ring_color=00FFFF&cache_seconds=1800"/>
 
-<img width="48%" src="https://streak-stats.demolab.com?user=RohonAlam&hide_border=true&background=0D1117&stroke=00FFFF&ring=00FFFF&fire=00FFFF&currStreakLabel=00FFFF&sideLabels=FFFFFF&currStreakNum=FFFFFF&sideNums=FFFFFF&dates=888888"/>
+<img
+  width="48%"
+  src="https://streak-stats.demolab.com/?user=RohonAlam&theme=dark"
+/>
 
 </div>
 
