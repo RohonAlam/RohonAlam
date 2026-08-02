@@ -169,9 +169,6 @@ Linux               ████████████████░░░░
 Git                 █████████████████░░░  85%
 ```
 
-> Levels above are round, editable placeholders (see `assets/config.md` →
-> SKILL MATRIX) — not a measured benchmark. Adjust to your honest level.
-
 <img src="assets/divider.svg" width="100%"/>
 
 ## RESEARCH TIMELINE
@@ -192,10 +189,10 @@ Future ── Research Publication
 
 ## CURRENT GOALS
 
-- [ ] `[ Solve 500+ LeetCode problems ]`
-- [ ] `[ Publish a research paper ]`
-- [ ] `[ Contribute to an open-source robotics project ]`
-- [ ] `[ Secure a great placement ]`
+- [ ] `Solve 500+ LeetCode problems`
+- [ ] `Publish a research paper`
+- [ ] `Contribute to an open-source robotics project`
+- [ ] `Secure a great placement`
 
 
 <img src="assets/divider.svg" width="100%"/>
