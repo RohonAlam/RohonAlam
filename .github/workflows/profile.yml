@@ -56,36 +56,64 @@ jobs:
   #           git push
   #         )
   
-  generate-snake:
-    runs-on: ubuntu-latest
+  # generate-snake:
+  #   runs-on: ubuntu-latest
   
-    permissions:
-      contents: write
+  #   permissions:
+  #     contents: write
   
-    steps:
-      - uses: actions/checkout@v4
+  #   steps:
+  #     - uses: actions/checkout@v4
   
-      - run: mkdir -p profile
+  #     - run: mkdir -p profile
   
-      - uses: Platane/snk@v3
-        with:
-          github_user_name: RohonAlam
-          outputs: |
-            profile/snake.svg?color_snake=#39D9FF&color_dots=#161B22,#0E7490,#0891B2,#22D3EE,#67E8F9
-            profile/snake-dark.svg?palette=github-dark&color_snake=#39D9FF&color_dots=#161B22,#0E7490,#0891B2,#22D3EE,#67E8F9
+  #     - uses: Platane/snk@v3
+  #       with:
+  #         github_user_name: RohonAlam
+  #         outputs: |
+  #           profile/snake.svg?color_snake=#39D9FF&color_dots=#161B22,#0E7490,#0891B2,#22D3EE,#67E8F9
+  #           profile/snake-dark.svg?palette=github-dark&color_snake=#39D9FF&color_dots=#161B22,#0E7490,#0891B2,#22D3EE,#67E8F9
   
-      - name: Commit
-        run: |
-          git config user.name github-actions[bot]
-          git config user.email 41898282+github-actions[bot]@users.noreply.github.com
+  #     - name: Commit
+  #       run: |
+  #         git config user.name github-actions[bot]
+  #         git config user.email 41898282+github-actions[bot]@users.noreply.github.com
   
-          git add profile/
+  #         git add profile/
   
-          git diff --cached --quiet || (
-            git commit -m "Update snake"
-            git push
-          )
-  generate-leetcode-heatmap:
+  #         git diff --cached --quiet || (
+  #           git commit -m "Update snake"
+  #           git push
+  #         )
+  # generate-leetcode-heatmap:
+  #   runs-on: ubuntu-latest
+
+  #   permissions:
+  #     contents: write
+
+  #   steps:
+  #     - uses: actions/checkout@v4
+
+  #     - uses: actions/setup-python@v5
+  #       with:
+  #         python-version: "3.12"
+
+  #     - name: Generate LeetCode heatmap
+  #       run: python scripts/generate_leetcode_heatmap.py
+
+  #     - name: Commit LeetCode heatmap
+  #       run: |
+  #         git config user.name github-actions[bot]
+  #         git config user.email 41898282+github-actions[bot]@users.noreply.github.com
+
+  #         git add profile/leetcode-heatmap.svg
+
+  #         git diff --cached --quiet || (
+  #           git commit -m "Update LeetCode heatmap"
+  #           git pull --rebase
+  #           git push
+  #         )
+  generate-contribution-graphs:
     runs-on: ubuntu-latest
 
     permissions:
@@ -98,22 +126,42 @@ jobs:
         with:
           python-version: "3.12"
 
+      - run: mkdir -p profile
+
+      # -----------------------------
+      # GitHub Snake
+      # -----------------------------
+
+      - name: Generate GitHub snake
+        uses: Platane/snk@v3
+        with:
+          github_user_name: RohonAlam
+          outputs: |
+            profile/snake.svg?color_snake=%2339D9FF&color_dots=%23161B22,%230E7490,%230891B2,%2322D3EE,%2367E8F9
+            profile/snake-dark.svg?palette=github-dark&color_snake=%2339D9FF&color_dots=%23161B22,%230E7490,%230891B2,%2322D3EE,%2367E8F9
+
+      # -----------------------------
+      # LeetCode Heatmap
+      # -----------------------------
+
       - name: Generate LeetCode heatmap
         run: python scripts/generate_leetcode_heatmap.py
 
-      - name: Commit LeetCode heatmap
+      # -----------------------------
+      # Commit everything
+      # -----------------------------
+
+      - name: Commit generated graphs
         run: |
           git config user.name github-actions[bot]
           git config user.email 41898282+github-actions[bot]@users.noreply.github.com
 
-          git add profile/leetcode-heatmap.svg
+          git add profile/
 
           git diff --cached --quiet || (
-            git commit -m "Update LeetCode heatmap"
-            git pull --rebase
+            git commit -m "Update contribution graphs"
             git push
           )
-
 
   generate-trophies:
     runs-on: ubuntu-latest
