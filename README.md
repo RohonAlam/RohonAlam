@@ -101,6 +101,32 @@ width="95%"/>
 
 </div>
 
+
+
+
+
+<!-- GitHub Snake -->
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./profile/snake-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="./profile/snake.svg">
+  <img src="./profile/snake.svg" width="100%" alt="GitHub contribution snake">
+</picture>
+
+<!-- LeetCode Heatmap -->
+<img src="./profile/leetcode-heatmap.svg" width="100%" alt="LeetCode contribution heatmap"/>
+
+<!-- GitHub Trophies -->
+<img src="./profile/trophies.svg" width="100%" alt="GitHub trophies"/>
+
+
+
+
+
+
+
+
+
+
 ## ACTIVE MODULES
 
 <img src="assets/modules.svg" width="100%"/>
