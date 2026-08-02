@@ -154,55 +154,201 @@ function computeStats(calendar) {
 }
 
 function renderSVG(stats, username) {
-  const { totalContributions, totalRange, currentStreak, currentRange, longestStreak, longestRange } = stats;
+  const {
+    totalContributions,
+    totalRange,
+    currentStreak,
+    currentRange,
+    longestStreak,
+    longestRange,
+  } = stats;
 
-  const W = 560;
-  const H = 200;
+  // Match GitHub Streak card dimensions
+  const W = 495;
+  const H = 195;
 
   return `<svg width="${W}" height="${H}" viewBox="0 0 ${W} ${H}" xmlns="http://www.w3.org/2000/svg" font-family="'Segoe UI', Ubuntu, Sans-Serif">
   <style>
-    .bg { fill: #0d1117; stroke: #2a2f3a; stroke-width: 1; }
-    .divider { stroke: #2a2f3a; stroke-width: 1; }
-    .big-num { font-size: 32px; font-weight: 700; }
-    .num-blue { fill: #58a6ff; }
-    .label { font-size: 13px; fill: #ffffff; font-weight: 600; }
-    .sub { font-size: 11px; fill: #7d8590; }
-    .streak-label { font-size: 13px; fill: #39d9d9; font-weight: 700; }
-    .ring { fill: none; stroke: #39d9d9; stroke-width: 5; }
-    .streak-num { font-size: 26px; font-weight: 700; fill: #ffffff; }
+    .bg {
+      fill: #0d1117;
+      stroke: #2a2f3a;
+      stroke-width: 1;
+    }
+
+    .divider {
+      stroke: #2a2f3a;
+      stroke-width: 1;
+    }
+
+    .big-num {
+      font-size: 30px;
+      font-weight: 700;
+    }
+
+    .num-blue {
+      fill: #58a6ff;
+    }
+
+    .label {
+      font-size: 12px;
+      fill: #ffffff;
+      font-weight: 600;
+    }
+
+    .sub {
+      font-size: 10px;
+      fill: #7d8590;
+    }
+
+    .streak-label {
+      font-size: 12px;
+      fill: #39d9d9;
+      font-weight: 700;
+    }
+
+    .ring {
+      fill: none;
+      stroke: #39d9d9;
+      stroke-width: 5;
+    }
+
+    .streak-num {
+      font-size: 25px;
+      font-weight: 700;
+      fill: #ffffff;
+    }
   </style>
 
-  <rect x="1" y="1" width="${W - 2}" height="${H - 2}" rx="12" class="bg"/>
+  <!-- Background -->
+  <rect
+    x="1"
+    y="1"
+    width="${W - 2}"
+    height="${H - 2}"
+    rx="10"
+    class="bg"
+  />
 
-  <!-- dividers -->
-  <line x1="${W / 3}" y1="28" x2="${W / 3}" y2="${H - 28}" class="divider"/>
-  <line x1="${(2 * W) / 3}" y1="28" x2="${(2 * W) / 3}" y2="${H - 28}" class="divider"/>
+  <!-- Dividers -->
+  <line
+    x1="${W / 3}"
+    y1="27"
+    x2="${W / 3}"
+    y2="${H - 27}"
+    class="divider"
+  />
 
-  <!-- Total contributions -->
+  <line
+    x1="${(2 * W) / 3}"
+    y1="27"
+    x2="${(2 * W) / 3}"
+    y2="${H - 27}"
+    class="divider"
+  />
+
+  <!-- ===================================================== -->
+  <!-- Total Submissions -->
+  <!-- ===================================================== -->
+
   <g transform="translate(${W / 6}, 0)">
-    <text x="0" y="72" text-anchor="middle" class="big-num num-blue">${totalContributions}</text>
-    <text x="0" y="98" text-anchor="middle" class="label">Total Submissions</text>
-    <text x="0" y="118" text-anchor="middle" class="sub">${totalRange}</text>
+
+    <text
+      x="0"
+      y="70"
+      text-anchor="middle"
+      class="big-num num-blue"
+    >${totalContributions}</text>
+
+    <text
+      x="0"
+      y="96"
+      text-anchor="middle"
+      class="label"
+    >Total Submissions</text>
+
+    <text
+      x="0"
+      y="116"
+      text-anchor="middle"
+      class="sub"
+    >${totalRange}</text>
+
   </g>
 
-  <!-- Current streak -->
+  <!-- ===================================================== -->
+  <!-- Current Streak -->
+  <!-- ===================================================== -->
+
   <g transform="translate(${W / 2}, 0)">
-    <circle cx="0" cy="62" r="34" class="ring"/>
-    <text x="0" y="70" text-anchor="middle" class="streak-num">${currentStreak}</text>
-    <path transform="translate(-9,24) scale(0.75)" fill="#39d9d9" d="M12 2c1 3-2 4-2 7a4 4 0 0 0 8 0c0-1-.3-2-.8-2.7C18.6 7.9 20 10 20 13a8 8 0 1 1-14.9-4C6 6 9 5 12 2z"/>
-    <text x="0" y="118" text-anchor="middle" class="streak-label">Current Streak</text>
-    <text x="0" y="138" text-anchor="middle" class="sub">${currentRange}</text>
+
+    <circle
+      cx="0"
+      cy="61"
+      r="33"
+      class="ring"
+    />
+
+    <text
+      x="0"
+      y="69"
+      text-anchor="middle"
+      class="streak-num"
+    >${currentStreak}</text>
+
+    <!-- Flame -->
+    <path
+      transform="translate(-9,23) scale(0.75)"
+      fill="#39d9d9"
+      d="M12 2c1 3-2 4-2 7a4 4 0 0 0 8 0c0-1-.3-2-.8-2.7C18.6 7.9 20 10 20 13a8 8 0 1 1-14.9-4C6 6 9 5 12 2z"
+    />
+
+    <text
+      x="0"
+      y="116"
+      text-anchor="middle"
+      class="streak-label"
+    >Current Streak</text>
+
+    <text
+      x="0"
+      y="136"
+      text-anchor="middle"
+      class="sub"
+    >${currentRange}</text>
+
   </g>
 
-  <!-- Longest streak -->
+  <!-- ===================================================== -->
+  <!-- Longest Streak -->
+  <!-- ===================================================== -->
+
   <g transform="translate(${(5 * W) / 6}, 0)">
-    <text x="0" y="72" text-anchor="middle" class="big-num num-blue">${longestStreak}</text>
-    <text x="0" y="98" text-anchor="middle" class="label">Longest Streak</text>
-    <text x="0" y="118" text-anchor="middle" class="sub">${longestRange}</text>
+
+    <text
+      x="0"
+      y="70"
+      text-anchor="middle"
+      class="big-num num-blue"
+    >${longestStreak}</text>
+
+    <text
+      x="0"
+      y="96"
+      text-anchor="middle"
+      class="label"
+    >Longest Streak</text>
+
+    <text
+      x="0"
+      y="116"
+      text-anchor="middle"
+      class="sub"
+    >${longestRange}</text>
+
   </g>
+
 </svg>`;
 }
-
 async function main() {
   const calendar = await fetchCalendar(USERNAME);
   const stats = computeStats(calendar);
