@@ -77,7 +77,7 @@ width="95%"/>
 
 
 
-<img src="https://leetcard.jacoblin.cool/rohon97?theme=dark&font=JetBrains%20Mono&ext=heatmap" width="100%"/>
+<!-- <img src="https://leetcard.jacoblin.cool/rohon97?theme=dark&font=JetBrains%20Mono&ext=heatmap" width="100%"/> -->
 
 
 
@@ -86,11 +86,11 @@ width="95%"/>
 <!-- LeetCode card — replace ADD_YOUR_LEETCODE_USERNAME in assets/config.md, then here -->
 <img src="https://leetcard.jacoblin.cool/rohon97?theme=dark&font=JetBrains%20Mono&ext=heatmap" width="100%"/>
 
-<img src="profile/snake-dark.svg" width="100%"/>
+<!-- <img src="profile/snake-dark.svg" width="100%"/> -->
 
-<img src="https://komarev.com/ghpvc/?username=RohonAlam&label=VISITOR+COUNT&color=00A3FF&style=flat-square" />
 
-</div>
+
+<!-- </div>
 
 <img src="assets/divider.svg" width="100%"/>
 ## 🏅 Trophies
@@ -99,7 +99,7 @@ width="95%"/>
 
 <img width="95%" src="./profile/trophies.svg"/>
 
-</div>
+</div> -->
 
 
 
@@ -260,3 +260,6 @@ Future ── Research Publication
 <div align="center">
 <sub>Generated as an AI OS–styled GitHub profile. All values editable in <code>assets/config.md</code>.</sub>
 </div>
+
+
+<img src="https://komarev.com/ghpvc/?username=RohonAlam&label=VISITOR+COUNT&color=00A3FF&style=flat-square" />
