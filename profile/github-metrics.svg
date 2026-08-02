@@ -327,10 +327,10 @@
                         <rect x="0" y="0" width="920" height="8" fill="white" rx="5"/>
                     </mask>
                     <rect mask="url(#languages-bar)" x="0" y="0" width="0" height="8" fill="#d1d5da"/>
-                    <rect mask="url(#languages-bar)" x="0" y="0" width="451.355672768642" height="8" fill="#3572A5"/>
-                    <rect mask="url(#languages-bar)" x="451.355672768642" y="0" width="298.30303030303025" height="8" fill="#f1e05a"/>
-                    <rect mask="url(#languages-bar)" x="749.6587030716723" y="0" width="130.75436963491572" height="8" fill="#663399"/>
-                    <rect mask="url(#languages-bar)" x="880.413072706588" y="0" width="39.58692729341194" height="8" fill="#e34c26"/>
+                    <rect mask="url(#languages-bar)" x="0" y="0" width="448.85583959435763" height="8" fill="#3572A5"/>
+                    <rect mask="url(#languages-bar)" x="448.85583959435763" y="0" width="301.74629866757175" height="8" fill="#f1e05a"/>
+                    <rect mask="url(#languages-bar)" x="750.6021382619294" y="0" width="130.03018662223525" height="8" fill="#663399"/>
+                    <rect mask="url(#languages-bar)" x="880.6323248841646" y="0" width="39.367675115835375" height="8" fill="#e34c26"/>
                 </svg>
                 <div class="row fill-width">
                     <section>
@@ -342,7 +342,7 @@
                                 Python
                             </div>
                             <small>
-                                <div>49.06%</div>
+                                <div>48.79%</div>
                             </small>
                         </div>
                     </section>
@@ -355,7 +355,7 @@
                                 JavaScript
                             </div>
                             <small>
-                                <div>32.42%</div>
+                                <div>32.8%</div>
                             </small>
                         </div>
                     </section>
@@ -368,7 +368,7 @@
                                 CSS
                             </div>
                             <small>
-                                <div>14.21%</div>
+                                <div>14.13%</div>
                             </small>
                         </div>
                     </section>
@@ -381,7 +381,7 @@
                                 HTML
                             </div>
                             <small>
-                                <div>4.3%</div>
+                                <div>4.28%</div>
                             </small>
                         </div>
                     </section>
@@ -1607,7 +1607,7 @@
             </section>
             <footer>
                 <span>These metrics include private contributions</span>
-                <span>Last updated 2 Aug 2026, 18:46:58 (timezone Asia/Kolkata) with lowlighter/metrics@3.34.0</span>
+                <span>Last updated 2 Aug 2026, 18:50:32 (timezone Asia/Kolkata) with lowlighter/metrics@3.34.0</span>
             </footer>
         </div>
         <div xmlns="http://www.w3.org/1999/xhtml" id="metrics-end"></div>
