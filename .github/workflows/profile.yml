@@ -1,192 +1,323 @@
-# ==============================================================================
-# .github/workflows/profile.yml
-#
-# Regenerates the two assets that CANNOT be served as a live third-party <img>
-# URL: the contribution "snake" animation and the trophies SVG. Everything
-# else in README.md (GitHub Stats, Streak, Activity Graph, LeetCode) is a live
-# embed pointed at a rendering service, so it needs no workflow.
-#
-# NOTE ON VERIFICATION: I have not run this workflow and cannot confirm these
-# action versions/inputs are current as of today — GitHub Action APIs change.
-# Before relying on this, open each action's README on its repo and confirm
-# the `uses:` tag and `with:` inputs still match. The two actions below are
-# real, commonly-used community actions (Platane/snk for the snake, and the
-# github-profile-trophy generator for trophies), not invented ones — but
-# their exact current syntax should still be verified against the source.
-# ==============================================================================
+# # ==============================================================================
+# # .github/workflows/profile.yml
+# #
+# # Regenerates the two assets that CANNOT be served as a live third-party <img>
+# # URL: the contribution "snake" animation and the trophies SVG. Everything
+# # else in README.md (GitHub Stats, Streak, Activity Graph, LeetCode) is a live
+# # embed pointed at a rendering service, so it needs no workflow.
+# #
+# # NOTE ON VERIFICATION: I have not run this workflow and cannot confirm these
+# # action versions/inputs are current as of today — GitHub Action APIs change.
+# # Before relying on this, open each action's README on its repo and confirm
+# # the `uses:` tag and `with:` inputs still match. The two actions below are
+# # real, commonly-used community actions (Platane/snk for the snake, and the
+# # github-profile-trophy generator for trophies), not invented ones — but
+# # their exact current syntax should still be verified against the source.
+# # ==============================================================================
+
+# name: Generate AI OS Profile Assets
+
+# on:
+#   schedule:
+#     - cron: "0 0 * * *"   # once a day, midnight UTC
+#   push:
+#     branches:
+#       - main
+#   workflow_dispatch: {}     # allow manual runs from the Actions tab
+
+# jobs:
+#   # generate-snake:
+#   #   runs-on: ubuntu-latest
+
+#   #   permissions:
+#   #     contents: write
+
+#   #   steps:
+#   #     - uses: actions/checkout@v4
+
+#   #     - run: mkdir -p profile
+
+#   #     - uses: Platane/snk@v3
+#   #       with:
+#   #         github_user_name: RohonAlam
+#   #         outputs: |
+#   #           profile/snake.svg
+#   #           profile/snake-dark.svg?palette=github-dark
+
+#   #     - name: Commit
+#   #       run: |
+#   #         git config user.name github-actions[bot]
+#   #         git config user.email 41898282+github-actions[bot]@users.noreply.github.com
+
+#   #         git add profile/
+
+#   #         git diff --cached --quiet || (
+#   #           git commit -m "Update snake"
+#   #           git push
+#   #         )
+  
+#   # generate-snake:
+#   #   runs-on: ubuntu-latest
+  
+#   #   permissions:
+#   #     contents: write
+  
+#   #   steps:
+#   #     - uses: actions/checkout@v4
+  
+#   #     - run: mkdir -p profile
+  
+#   #     - uses: Platane/snk@v3
+#   #       with:
+#   #         github_user_name: RohonAlam
+#   #         outputs: |
+#   #           profile/snake.svg?color_snake=#39D9FF&color_dots=#161B22,#0E7490,#0891B2,#22D3EE,#67E8F9
+#   #           profile/snake-dark.svg?palette=github-dark&color_snake=#39D9FF&color_dots=#161B22,#0E7490,#0891B2,#22D3EE,#67E8F9
+  
+#   #     - name: Commit
+#   #       run: |
+#   #         git config user.name github-actions[bot]
+#   #         git config user.email 41898282+github-actions[bot]@users.noreply.github.com
+  
+#   #         git add profile/
+  
+#   #         git diff --cached --quiet || (
+#   #           git commit -m "Update snake"
+#   #           git push
+#   #         )
+#   # generate-leetcode-heatmap:
+#   #   runs-on: ubuntu-latest
+
+#   #   permissions:
+#   #     contents: write
+
+#   #   steps:
+#   #     - uses: actions/checkout@v4
+
+#   #     - uses: actions/setup-python@v5
+#   #       with:
+#   #         python-version: "3.12"
+
+#   #     - name: Generate LeetCode heatmap
+#   #       run: python scripts/generate_leetcode_heatmap.py
+
+#   #     - name: Commit LeetCode heatmap
+#   #       run: |
+#   #         git config user.name github-actions[bot]
+#   #         git config user.email 41898282+github-actions[bot]@users.noreply.github.com
+
+#   #         git add profile/leetcode-heatmap.svg
+
+#   #         git diff --cached --quiet || (
+#   #           git commit -m "Update LeetCode heatmap"
+#   #           git pull --rebase
+#   #           git push
+#   #         )
+#   generate-contribution-graphs:
+#     runs-on: ubuntu-latest
+
+#     permissions:
+#       contents: write
+
+#     steps:
+#       - uses: actions/checkout@v4
+
+#       - uses: actions/setup-python@v5
+#         with:
+#           python-version: "3.12"
+
+#       - run: mkdir -p profile
+
+#       # -----------------------------
+#       # GitHub Snake
+#       # -----------------------------
+
+#       - name: Generate GitHub snake
+#         uses: Platane/snk@v3
+#         with:
+#           github_user_name: RohonAlam
+#           outputs: |
+#             profile/snake.svg?color_snake=%2339D9FF&color_dots=%23161B22,%230E7490,%230891B2,%2322D3EE,%2367E8F9
+#             profile/snake-dark.svg?palette=github-dark&color_snake=%2339D9FF&color_dots=%23161B22,%230E7490,%230891B2,%2322D3EE,%2367E8F9
+
+#       # -----------------------------
+#       # LeetCode Heatmap
+#       # -----------------------------
+
+#       - name: Generate LeetCode heatmap
+#         run: python scripts/generate_leetcode_heatmap.py
+
+#       # -----------------------------
+#       # Commit everything
+#       # -----------------------------
+
+#       - name: Commit generated graphs
+#         run: |
+#           git config user.name github-actions[bot]
+#           git config user.email 41898282+github-actions[bot]@users.noreply.github.com
+
+#           git add profile/
+
+#           git diff --cached --quiet || (
+#             git commit -m "Update contribution graphs"
+#             git push
+#           )
+
+#   generate-trophies:
+#     runs-on: ubuntu-latest
+#     permissions:
+#       contents: write
+#     steps:
+#       - name: Checkout repository
+#         uses: actions/checkout@v4
+
+#       - name: Generate trophies SVG
+#         uses: ryo-ma/github-profile-trophy@v1
+#         with:
+#           username: RohonAlam
+#           theme: onedark
+#           column: 4
+#           margin-w: 12
+#           margin-h: 12
+#           no-frame: true
+#           no-bg: false
+#           output: profile/trophies.svg
+
+#       - name: Commit updated trophies asset
+#         run: |
+#           git config user.name "github-actions[bot]"
+#           git config user.email "github-actions[bot]@users.noreply.github.com"
+#           git add profile/trophies.svg
+#           git diff --staged --quiet || git commit -m "chore: refresh trophies.svg [automated]"
+#           git push
+
 
 name: Generate AI OS Profile Assets
 
 on:
   schedule:
-    - cron: "0 0 * * *"   # once a day, midnight UTC
+    - cron: "0 0 * * *"
+
   push:
     branches:
       - main
-  workflow_dispatch: {}     # allow manual runs from the Actions tab
+
+  workflow_dispatch:
 
 jobs:
-  # generate-snake:
-  #   runs-on: ubuntu-latest
-
-  #   permissions:
-  #     contents: write
-
-  #   steps:
-  #     - uses: actions/checkout@v4
-
-  #     - run: mkdir -p profile
-
-  #     - uses: Platane/snk@v3
-  #       with:
-  #         github_user_name: RohonAlam
-  #         outputs: |
-  #           profile/snake.svg
-  #           profile/snake-dark.svg?palette=github-dark
-
-  #     - name: Commit
-  #       run: |
-  #         git config user.name github-actions[bot]
-  #         git config user.email 41898282+github-actions[bot]@users.noreply.github.com
-
-  #         git add profile/
-
-  #         git diff --cached --quiet || (
-  #           git commit -m "Update snake"
-  #           git push
-  #         )
-  
-  # generate-snake:
-  #   runs-on: ubuntu-latest
-  
-  #   permissions:
-  #     contents: write
-  
-  #   steps:
-  #     - uses: actions/checkout@v4
-  
-  #     - run: mkdir -p profile
-  
-  #     - uses: Platane/snk@v3
-  #       with:
-  #         github_user_name: RohonAlam
-  #         outputs: |
-  #           profile/snake.svg?color_snake=#39D9FF&color_dots=#161B22,#0E7490,#0891B2,#22D3EE,#67E8F9
-  #           profile/snake-dark.svg?palette=github-dark&color_snake=#39D9FF&color_dots=#161B22,#0E7490,#0891B2,#22D3EE,#67E8F9
-  
-  #     - name: Commit
-  #       run: |
-  #         git config user.name github-actions[bot]
-  #         git config user.email 41898282+github-actions[bot]@users.noreply.github.com
-  
-  #         git add profile/
-  
-  #         git diff --cached --quiet || (
-  #           git commit -m "Update snake"
-  #           git push
-  #         )
-  # generate-leetcode-heatmap:
-  #   runs-on: ubuntu-latest
-
-  #   permissions:
-  #     contents: write
-
-  #   steps:
-  #     - uses: actions/checkout@v4
-
-  #     - uses: actions/setup-python@v5
-  #       with:
-  #         python-version: "3.12"
-
-  #     - name: Generate LeetCode heatmap
-  #       run: python scripts/generate_leetcode_heatmap.py
-
-  #     - name: Commit LeetCode heatmap
-  #       run: |
-  #         git config user.name github-actions[bot]
-  #         git config user.email 41898282+github-actions[bot]@users.noreply.github.com
-
-  #         git add profile/leetcode-heatmap.svg
-
-  #         git diff --cached --quiet || (
-  #           git commit -m "Update LeetCode heatmap"
-  #           git pull --rebase
-  #           git push
-  #         )
-  generate-contribution-graphs:
+  generate-profile-assets:
     runs-on: ubuntu-latest
 
     permissions:
       contents: write
 
     steps:
-      - uses: actions/checkout@v4
+      # ============================================================
+      # CHECKOUT
+      # ============================================================
 
-      - uses: actions/setup-python@v5
-        with:
-          python-version: "3.12"
+      - name: Checkout repository
+        uses: actions/checkout@v4
 
-      - run: mkdir -p profile
+      # ============================================================
+      # CREATE DIRECTORIES
+      # ============================================================
 
-      # -----------------------------
-      # GitHub Snake
-      # -----------------------------
+      - name: Create directories
+        run: |
+          mkdir -p profile
+          mkdir -p scripts
+
+      # ============================================================
+      # GITHUB SNAKE
+      # ============================================================
 
       - name: Generate GitHub snake
-        uses: Platane/snk@v3
+        uses: Platane/snk/svg-only@v3
         with:
           github_user_name: RohonAlam
           outputs: |
             profile/snake.svg?color_snake=%2339D9FF&color_dots=%23161B22,%230E7490,%230891B2,%2322D3EE,%2367E8F9
             profile/snake-dark.svg?palette=github-dark&color_snake=%2339D9FF&color_dots=%23161B22,%230E7490,%230891B2,%2322D3EE,%2367E8F9
 
-      # -----------------------------
-      # LeetCode Heatmap
-      # -----------------------------
+      # ============================================================
+      # PYTHON FOR LEETCODE
+      # ============================================================
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Check LeetCode heatmap script
+        run: |
+          if [ ! -f scripts/generate_leetcode_heatmap.py ]; then
+            echo "ERROR: scripts/generate_leetcode_heatmap.py not found"
+            exit 1
+          fi
+
+      # ============================================================
+      # LEETCODE HEATMAP
+      # ============================================================
 
       - name: Generate LeetCode heatmap
-        run: python scripts/generate_leetcode_heatmap.py
-
-      # -----------------------------
-      # Commit everything
-      # -----------------------------
-
-      - name: Commit generated graphs
         run: |
-          git config user.name github-actions[bot]
-          git config user.email 41898282+github-actions[bot]@users.noreply.github.com
+          python scripts/generate_leetcode_heatmap.py
+
+      # ============================================================
+      # GITHUB TROPHIES
+      # ============================================================
+      #
+      # github-profile-trophy's official repository documents
+      # Erik-Donath's generate-svg branch for CI generation.
+      #
+      # This generates the SVG locally instead of depending on
+      # github-profile-trophy.vercel.app.
+      # ============================================================
+
+      - name: Generate GitHub trophies
+        uses: Erik-Donath/github-profile-trophy@feature/generate-svg
+        with:
+          username: RohonAlam
+          output_path: profile/trophies.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      # ============================================================
+      # VERIFY FILES
+      # ============================================================
+
+      - name: Verify generated assets
+        run: |
+          echo "========================================"
+          echo "Generated profile assets"
+          echo "========================================"
+
+          ls -lah profile/
+
+          test -f profile/snake.svg
+          test -f profile/snake-dark.svg
+          test -f profile/leetcode-heatmap.svg
+          test -f profile/trophies.svg
+
+          echo "========================================"
+          echo "All profile assets generated successfully"
+          echo "========================================"
+
+      # ============================================================
+      # COMMIT EVERYTHING
+      # ============================================================
+
+      - name: Commit generated assets
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
           git add profile/
 
-          git diff --cached --quiet || (
-            git commit -m "Update contribution graphs"
-            git push
-          )
+          if git diff --cached --quiet; then
+            echo "No changes to commit."
+            exit 0
+          fi
 
-  generate-trophies:
-    runs-on: ubuntu-latest
-    permissions:
-      contents: write
-    steps:
-      - name: Checkout repository
-        uses: actions/checkout@v4
-
-      - name: Generate trophies SVG
-        uses: ryo-ma/github-profile-trophy@v1
-        with:
-          username: RohonAlam
-          theme: onedark
-          column: 4
-          margin-w: 12
-          margin-h: 12
-          no-frame: true
-          no-bg: false
-          output: profile/trophies.svg
-
-      - name: Commit updated trophies asset
-        run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add profile/trophies.svg
-          git diff --staged --quiet || git commit -m "chore: refresh trophies.svg [automated]"
+          git commit -m "Update profile assets"
           git push
