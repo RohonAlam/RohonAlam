@@ -84,7 +84,7 @@ width="95%"/>
 
 
 <!-- LeetCode card — replace ADD_YOUR_LEETCODE_USERNAME in assets/config.md, then here -->
-<img src="https://leetcard.jacoblin.cool/rohon97?theme=dark&font=JetBrains%20Mono&ext=heatmap" width="100%"/>
+<!-- <img src="https://leetcard.jacoblin.cool/rohon97?theme=dark&font=JetBrains%20Mono&ext=heatmap" width="100%"/> -->
 
 <!-- <img src="profile/snake-dark.svg" width="100%"/> -->
 
