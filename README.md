@@ -73,19 +73,12 @@ width="95%"/>
   <tr>
     <td align="center" width="50%">
       <h3>🔥 GitHub Streak</h3>
-    </td>
-    <td align="center" width="50%">
-      <h3>🔥 LeetCode Streak</h3>
-    </td>
-  </tr>
-
-  <tr>
-    <td align="center" width="50%">
       <img src="https://streak-stats.demolab.com/?user=RohonAlam&theme=github-dark-blue&hide_border=true&background=0D1117&ring=00FFFF&fire=00FF88&currStreakLabel=00FFFF" width="100%" alt="GitHub Streak"/>
     </td>
 
     <td align="center" width="50%">
-      <img src="assets/leetcode-streak.svg" width="100%" alt="LeetCode Streak"/>
+      <h3>🔥 LeetCode Streak</h3>
+      <img src="https://raw.githubusercontent.com/RohonAlam/RohonAlam/main/assets/leetcode-streak.svg" width="100%" alt="LeetCode Streak"/>
     </td>
   </tr>
 </table>
