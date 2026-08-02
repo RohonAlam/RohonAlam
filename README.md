@@ -63,11 +63,6 @@ src="./profile/github-metrics.svg"
 width="95%"/>
 
 </div>
-<img src="https://streak-stats.demolab.com/?user=RohonAlam&theme=github-dark-blue&hide_border=true&background=0D1117&ring=00FFFF&fire=00FF88&currStreakLabel=00FFFF" height="165"/>
-
-
-![LeetCode Streak](assets/leetcode-streak.svg)
-
 
 | 🔥 GitHub Streak | 🔥 LeetCode Streak |
 | :---: | :---: |
@@ -78,33 +73,6 @@ width="95%"/>
 
 
 <!-- <img src="https://github-readme-activity-graph.vercel.app/graph?username=RohonAlam&theme=github-compact&bg_color=0D1117&color=5FFFFF&line=3BBAFF&point=4DFFAA&hide_border=true" width="100%"/> -->
-
-
-
-<!-- <img src="https://leetcard.jacoblin.cool/rohon97?theme=dark&font=JetBrains%20Mono&ext=heatmap" width="100%"/> -->
-
-
-
-
-
-<!-- LeetCode card — replace ADD_YOUR_LEETCODE_USERNAME in assets/config.md, then here -->
-<!-- <img src="https://leetcard.jacoblin.cool/rohon97?theme=dark&font=JetBrains%20Mono&ext=heatmap" width="100%"/> -->
-
-<!-- <img src="profile/snake-dark.svg" width="100%"/> -->
-
-
-
-<!-- </div>
-
-<img src="assets/divider.svg" width="100%"/>
-## 🏅 Trophies
-
-<div align="center">
-
-<img width="95%" src="./profile/trophies.svg"/>
-
-</div> -->
-
 
 
 
