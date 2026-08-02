@@ -279,8 +279,12 @@ jobs:
         uses: Erik-Donath/github-profile-trophy@feature/generate-svg
         with:
           username: RohonAlam
-          output_path: profile/trophies.svg
           token: ${{ secrets.GITHUB_TOKEN }}
+          file: profile/trophies.svg
+          theme: onedark
+          max-cols: 4
+          margin-width: 12
+          margin-height: 12
 
       # ============================================================
       # VERIFY FILES
