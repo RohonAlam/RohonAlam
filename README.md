@@ -64,16 +64,8 @@ width="95%"/>
 
 </div>
 
-| 🔥 GitHub Streak | 🔥 LeetCode Streak |
-| :---: | :---: |
-| ![GitHub Streak](https://streak-stats.demolab.com/?user=RohonAlam&theme=github-dark-blue&hide_border=true&background=0D1117&ring=00FFFF&fire=00FF88&currStreakLabel=00FFFF) | ![LeetCode Streak](assets/leetcode-streak.svg) |
 
 <img src="https://github-readme-activity-graph.vercel.app/graph?username=RohonAlam&theme=github-compact&bg_color=0D1117&color=00FFFF&line=00A3FF&point=00FF88&hide_border=true" width="100%"/>
-
-
-
-<!-- <img src="https://github-readme-activity-graph.vercel.app/graph?username=RohonAlam&theme=github-compact&bg_color=0D1117&color=5FFFFF&line=3BBAFF&point=4DFFAA&hide_border=true" width="100%"/> -->
-
 
 
 
@@ -83,6 +75,13 @@ width="95%"/>
   <source media="(prefers-color-scheme: light)" srcset="./profile/snake.svg">
   <img src="./profile/snake.svg" width="100%" alt="GitHub contribution snake">
 </picture>
+
+
+| 🔥 GitHub Streak | 🔥 LeetCode Streak |
+| :---: | :---: |
+| ![GitHub Streak](https://streak-stats.demolab.com/?user=RohonAlam&theme=github-dark-blue&hide_border=true&background=0D1117&ring=00FFFF&fire=00FF88&currStreakLabel=00FFFF) | ![LeetCode Streak](assets/leetcode-streak.svg) |
+
+
 
 <!-- LeetCode Heatmap -->
 <img src="./profile/leetcode-heatmap.svg" width="100%" alt="LeetCode contribution heatmap"/>
