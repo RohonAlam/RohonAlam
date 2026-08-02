@@ -85,6 +85,34 @@ jobs:
             git commit -m "Update snake"
             git push
           )
+  generate-leetcode-heatmap:
+    runs-on: ubuntu-latest
+
+    permissions:
+      contents: write
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Generate LeetCode heatmap
+        run: python scripts/generate_leetcode_heatmap.py
+
+      - name: Commit LeetCode heatmap
+        run: |
+          git config user.name github-actions[bot]
+          git config user.email 41898282+github-actions[bot]@users.noreply.github.com
+
+          git add profile/leetcode-heatmap.svg
+
+          git diff --cached --quiet || (
+            git commit -m "Update LeetCode heatmap"
+            git pull --rebase
+            git push
+          )
 
 
   generate-trophies:
