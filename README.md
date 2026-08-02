@@ -67,7 +67,8 @@ width="95%"/>
 
 <img src="https://github-readme-activity-graph.vercel.app/graph?username=RohonAlam&theme=github-compact&bg_color=0D1117&color=00FFFF&line=00A3FF&point=00FF88&hide_border=true" width="100%"/>
 
-
+<!-- GitHub Trophies -->
+<img src="./profile/trophies.svg" width="100%" alt="GitHub trophies"/>
 
 <!-- GitHub Snake -->
 <picture>
@@ -86,8 +87,7 @@ width="95%"/>
 <!-- LeetCode Heatmap -->
 <img src="./profile/leetcode-heatmap.svg" width="100%" alt="LeetCode contribution heatmap"/>
 
-<!-- GitHub Trophies -->
-<img src="./profile/trophies.svg" width="100%" alt="GitHub trophies"/>
+
 
 
 
