@@ -120,8 +120,9 @@ TECH STACK   Python • PyQt • OpenCV • GIS
 
 ─────────────────────────────────────────────────────────────────────
 ```
-
-➡️ **Repository:** https://github.com/RohonAlam/3D-Terrain-Generator
+<a href="https://github.com/RohonAlam/3D-Terrain-Generator">
+  <img src="https://img.shields.io/badge/Repository-181717?style=for-the-badge&logo=github&logoColor=white" alt="Repository"/>
+</a>
 
 ```text
 [002] ───────────────────────────────────────────────────────────────
@@ -134,8 +135,9 @@ TECH STACK   Python • C++ • Algorithms
 
 ─────────────────────────────────────────────────────────────────────
 ```
-
-➡️ **Repository:** https://github.com/RohonAlam/LeetCode
+<a href="https://github.com/RohonAlam/LeetCode">
+  <img src="https://img.shields.io/badge/Repository-181717?style=for-the-badge&logo=github&logoColor=white" alt="Repository"/>
+</a>
 
 ```text
 [003] ───────────────────────────────────────────────────────────────
@@ -148,8 +150,6 @@ TECH STACK   MongoDB • Express.js • React.js • Node.js
 
 ─────────────────────────────────────────────────────────────────────
 ```
-
-➡️ **Repository:** https://github.com/RohonAlam/E_Commerce_Project
 <a href="https://github.com/RohonAlam/E_Commerce_Project">
   <img src="https://img.shields.io/badge/Repository-181717?style=for-the-badge&logo=github&logoColor=white" alt="Repository"/>
 </a>
