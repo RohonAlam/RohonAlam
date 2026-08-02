@@ -118,8 +118,6 @@ DESCRIPTION  Desktop application that converts DEM data into
 
 TECH STACK   Python • PyQt • OpenCV • GIS
 
-REPOSITORY   https://github.com/RohonAlam/3D-Terrain-Generator
-
 ─────────────────────────────────────────────────────────────────────
 ```
 
@@ -142,18 +140,19 @@ TECH STACK   Python • C++ • Algorithms
 ```text
 [003] ───────────────────────────────────────────────────────────────
 
-NAME         AI Voice Assistant
-STATUS       ● STABLE
-DESCRIPTION  Offline AI voice assistant built in Python.
+NAME         E_Commerce_Project
+STATUS       ● COMPLETED
+DESCRIPTION  Full-Stack E-Commerce Website using the MERN Stack.
 
-TECH STACK   Python • SpeechRecognition • PyQt
-
-REPOSITORY   https://github.com/RohonAlam/AI-Voice-Assistant
+TECH STACK   MongoDB • Express.js • React.js • Node.js
 
 ─────────────────────────────────────────────────────────────────────
 ```
 
-➡️ **Repository:** https://github.com/RohonAlam/AI-Voice-Assistant
+➡️ **Repository:** https://github.com/RohonAlam/E_Commerce_Project
+<a href="https://github.com/RohonAlam/E_Commerce_Project">
+  <img src="https://img.shields.io/badge/Repository-181717?style=for-the-badge&logo=github&logoColor=white" alt="Repository"/>
+</a>
 
 <img src="assets/divider.svg" width="100%"/>
 
@@ -163,7 +162,7 @@ REPOSITORY   https://github.com/RohonAlam/AI-Voice-Assistant
 Python              ██████████████████░░  95%
 C++                 █████████████████░░░  85%
 ROS                 ████████████████░░░░  80%
-OpenCV               █████████████████░░░  85%
+OpenCV              █████████████████░░░  85%
 PyTorch             ███████████████░░░░░  75%
 Docker              ████████████░░░░░░░░  60%
 Linux               ████████████████░░░░  80%
@@ -193,10 +192,10 @@ Future ── Research Publication
 
 ## CURRENT GOALS
 
-- [ ] `[ PLACEHOLDER: e.g. "Solve 500+ LeetCode problems" ]`
-- [ ] `[ PLACEHOLDER: e.g. "Publish a research paper" ]`
-- [ ] `[ PLACEHOLDER: e.g. "Contribute to an open-source robotics project" ]`
-- [ ] `[ PLACEHOLDER: e.g. "Secure a great placement" ]`
+- [ ] `[ Solve 500+ LeetCode problems ]`
+- [ ] `[ Publish a research paper ]`
+- [ ] `[ Contribute to an open-source robotics project ]`
+- [ ] `[ Secure a great placement ]`
 
 
 <img src="assets/divider.svg" width="100%"/>
@@ -230,8 +229,8 @@ Future ── Research Publication
 <img src="assets/footer.svg" width="100%"/>
 
 <div align="center">
-<sub>Generated as an AI OS–styled GitHub profile. All values editable in <code>assets/config.md</code>.</sub>
+<img src="https://komarev.com/ghpvc/?username=RohonAlam&label=VISITOR+COUNT&color=00A3FF&style=flat-square" />
 </div>
 
 
-<img src="https://komarev.com/ghpvc/?username=RohonAlam&label=VISITOR+COUNT&color=00A3FF&style=flat-square" />
+
