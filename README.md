@@ -66,6 +66,9 @@ width="95%"/>
 <img src="https://streak-stats.demolab.com/?user=RohonAlam&theme=github-dark-blue&hide_border=true&background=0D1117&ring=00FFFF&fire=00FF88&currStreakLabel=00FFFF" height="165"/>
 
 
+![LeetCode Streak](assets/leetcode-streak.svg)
+
+
 <img src="https://github-readme-activity-graph.vercel.app/graph?username=RohonAlam&theme=github-compact&bg_color=0D1117&color=00FFFF&line=00A3FF&point=00FF88&hide_border=true" width="100%"/>
 
 <!-- LeetCode card — replace ADD_YOUR_LEETCODE_USERNAME in assets/config.md, then here -->
