@@ -80,7 +80,7 @@ width="95%"/>
 
 | 🔥 GitHub Streak | 🔥 LeetCode Streak |
 | :---: | :---: |
-| ![GitHub Streak](https://streak-stats.demolab.com/?user=RohonAlam&theme=github-dark-blue&hide_border=true&background=0D1117&ring=00FFFF&fire=00FF88&currStreakLabel=00FFFF) | ![LeetCode Streak](assets/leetcode-streak.svg) |
+| ![GitHub Streak](assets/github-streak.svg) | ![LeetCode Streak](assets/leetcode-streak.svg) |
 
 
 
