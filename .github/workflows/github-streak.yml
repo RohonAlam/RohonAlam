@@ -1,9 +1,18 @@
+# ============================================================
+# .github/workflows/github-streak.yml
+#
+# Runs daily at 12:15 AM IST
+#
+# Generates:
+#   assets/github-streak.svg
+# ============================================================
+
 name: Update GitHub Streak Card
 
 on:
   schedule:
-    # Every day at 00:15 UTC
-    - cron: "15 0 * * *"
+    # 18:45 UTC = 12:15 AM IST (next day)
+    - cron: "45 18 * * *"
 
   workflow_dispatch:
 
@@ -12,22 +21,21 @@ permissions:
 
 jobs:
   update-card:
-
     runs-on: ubuntu-latest
 
     steps:
 
-      # ------------------------------------------------------
-      # Checkout
-      # ------------------------------------------------------
+      # ======================================================
+      # CHECKOUT
+      # ======================================================
 
       - name: Checkout repository
         uses: actions/checkout@v4
 
 
-      # ------------------------------------------------------
-      # Node
-      # ------------------------------------------------------
+      # ======================================================
+      # NODE SETUP
+      # ======================================================
 
       - name: Setup Node
         uses: actions/setup-node@v4
@@ -35,24 +43,33 @@ jobs:
           node-version: "20"
 
 
-      # ------------------------------------------------------
-      # Generate GitHub streak
-      # ------------------------------------------------------
+      # ======================================================
+      # GENERATE GITHUB STREAK
+      # ======================================================
 
       - name: Generate GitHub streak card
         env:
           GITHUB_USERNAME: RohonAlam
-
-          # Built-in GitHub Actions token
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          TZ: Asia/Kolkata
 
         run: |
           node scripts/generate-github-streak.mjs
 
 
-      # ------------------------------------------------------
-      # Commit SVG
-      # ------------------------------------------------------
+      # ======================================================
+      # VERIFY
+      # ======================================================
+
+      - name: Verify GitHub streak card
+        run: |
+          test -f assets/github-streak.svg
+          ls -lah assets/github-streak.svg
+
+
+      # ======================================================
+      # COMMIT
+      # ======================================================
 
       - name: Commit updated card
         run: |
