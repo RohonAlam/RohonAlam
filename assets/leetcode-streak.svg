@@ -88,7 +88,7 @@
       y="70"
       text-anchor="middle"
       class="big-num num-blue"
-    >90</text>
+    >91</text>
 
     <text
       x="0"
@@ -124,7 +124,7 @@
       y="69"
       text-anchor="middle"
       class="streak-num"
-    >4</text>
+    >5</text>
 
     <!-- Flame -->
     <path
@@ -145,7 +145,7 @@
       y="136"
       text-anchor="middle"
       class="sub"
-    >Jul 30 - Aug 2</text>
+    >Jul 30 - Aug 3</text>
 
   </g>
 
@@ -160,7 +160,7 @@
       y="70"
       text-anchor="middle"
       class="big-num num-blue"
-    >4</text>
+    >5</text>
 
     <text
       x="0"
@@ -174,7 +174,7 @@
       y="116"
       text-anchor="middle"
       class="sub"
-    >Jul 11 - Jul 14</text>
+    >Jul 30 - Aug 3</text>
 
   </g>
 
