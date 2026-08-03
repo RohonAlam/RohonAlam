@@ -1,0 +1,78 @@
+name: Update GitHub Streak Card
+
+on:
+  schedule:
+    # Every day at 00:15 UTC
+    - cron: "15 0 * * *"
+
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update-card:
+
+    runs-on: ubuntu-latest
+
+    steps:
+
+      # ------------------------------------------------------
+      # Checkout
+      # ------------------------------------------------------
+
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+
+      # ------------------------------------------------------
+      # Node
+      # ------------------------------------------------------
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+
+      # ------------------------------------------------------
+      # Generate GitHub streak
+      # ------------------------------------------------------
+
+      - name: Generate GitHub streak card
+        env:
+          GITHUB_USERNAME: RohonAlam
+
+          # Built-in GitHub Actions token
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+        run: |
+          node scripts/generate-github-streak.mjs
+
+
+      # ------------------------------------------------------
+      # Commit SVG
+      # ------------------------------------------------------
+
+      - name: Commit updated card
+        run: |
+
+          git config user.name "github-actions[bot]"
+
+          git config user.email \
+            "41898282+github-actions[bot]@users.noreply.github.com"
+
+          git add assets/github-streak.svg
+
+          if git diff --cached --quiet; then
+
+            echo "No GitHub streak changes."
+
+            exit 0
+
+          fi
+
+          git commit \
+            -m "chore: update GitHub streak card"
+
+          git push
