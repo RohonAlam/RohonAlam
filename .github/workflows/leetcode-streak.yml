@@ -1,10 +1,20 @@
+# ============================================================
+# .github/workflows/leetcode-streak.yml
+#
+# Runs daily at 12:25 AM IST
+#
+# Generates:
+#   assets/leetcode-streak.svg
+# ============================================================
+
 name: Update LeetCode Streak Card
 
 on:
   schedule:
-    # Runs once a day at 00:30 UTC. Adjust as you like.
-    - cron: "30 0 * * *"
-  workflow_dispatch: {}
+    # 18:55 UTC = 12:25 AM IST (next day)
+    - cron: "55 18 * * *"
+
+  workflow_dispatch:
 
 permissions:
   contents: write
@@ -12,22 +22,67 @@ permissions:
 jobs:
   update-card:
     runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v4
 
-      - uses: actions/setup-node@v4
+    steps:
+
+      # ======================================================
+      # CHECKOUT
+      # ======================================================
+
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+
+      # ======================================================
+      # NODE SETUP
+      # ======================================================
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
         with:
           node-version: "20"
+
+
+      # ======================================================
+      # GENERATE LEETCODE STREAK
+      # ======================================================
 
       - name: Generate LeetCode streak card
         env:
           LEETCODE_USERNAME: rohon97
-        run: node scripts/generate-leetcode-streak.mjs
+          TZ: Asia/Kolkata
+
+        run: |
+          node scripts/generate-leetcode-streak.mjs
+
+
+      # ======================================================
+      # VERIFY
+      # ======================================================
+
+      - name: Verify LeetCode streak card
+        run: |
+          test -f assets/leetcode-streak.svg
+          ls -lah assets/leetcode-streak.svg
+
+
+      # ======================================================
+      # COMMIT
+      # ======================================================
 
       - name: Commit updated card
         run: |
           git config user.name "github-actions[bot]"
-          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
           git add assets/leetcode-streak.svg
-          git diff --staged --quiet || git commit -m "chore: update LeetCode streak card"
-          git push
+
+          if git diff --cached --quiet; then
+            echo "No LeetCode streak changes."
+            exit 0
+          fi
+
+          git commit -m "chore: update LeetCode streak card"
+
+          git pull --rebase origin main
+          git push origin main
