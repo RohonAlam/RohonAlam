@@ -107,7 +107,7 @@
     y="70"
     text-anchor="middle"
     class="big-num num-blue"
-  >211</text>
+  >219</text>
 
   <text
     x="0"
@@ -121,7 +121,7 @@
     y="116"
     text-anchor="middle"
     class="sub"
-  >Aug 10, 2025 - Present</text>
+  >Aug 11, 2025 - Present</text>
 
 </g>
 
@@ -144,7 +144,7 @@
     y="69"
     text-anchor="middle"
     class="streak-num"
-  >0</text>
+  >1</text>
 
   <!-- Flame -->
 
@@ -166,7 +166,7 @@
     y="136"
     text-anchor="middle"
     class="sub"
-  >No active streak</text>
+  >Aug 11 - Aug 11</text>
 
 </g>
 
