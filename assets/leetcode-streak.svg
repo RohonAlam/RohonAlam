@@ -124,7 +124,7 @@
       y="69"
       text-anchor="middle"
       class="streak-num"
-    >1</text>
+    >0</text>
 
     <!-- Flame -->
     <path
@@ -145,7 +145,7 @@
       y="136"
       text-anchor="middle"
       class="sub"
-    >Aug 26 - Aug 26</text>
+    >No active streak</text>
 
   </g>
 
