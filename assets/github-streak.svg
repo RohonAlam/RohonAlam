@@ -107,7 +107,7 @@
     y="70"
     text-anchor="middle"
     class="big-num num-blue"
-  >254</text>
+  >258</text>
 
   <text
     x="0"
@@ -144,7 +144,7 @@
     y="69"
     text-anchor="middle"
     class="streak-num"
-  >5</text>
+  >1</text>
 
   <!-- Flame -->
 
@@ -166,7 +166,7 @@
     y="136"
     text-anchor="middle"
     class="sub"
-  >Aug 25 - Aug 29</text>
+  >Aug 31 - Aug 31</text>
 
 </g>
 
