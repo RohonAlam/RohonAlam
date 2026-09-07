@@ -107,7 +107,7 @@
     y="70"
     text-anchor="middle"
     class="big-num num-blue"
-  >260</text>
+  >268</text>
 
   <text
     x="0"
@@ -144,7 +144,7 @@
     y="69"
     text-anchor="middle"
     class="streak-num"
-  >0</text>
+  >1</text>
 
   <!-- Flame -->
 
@@ -166,7 +166,7 @@
     y="136"
     text-anchor="middle"
     class="sub"
-  >No active streak</text>
+  >Sep 7 - Sep 7</text>
 
 </g>
 
