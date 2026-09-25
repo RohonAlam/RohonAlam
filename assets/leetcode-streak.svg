@@ -88,7 +88,7 @@
       y="70"
       text-anchor="middle"
       class="big-num num-blue"
-    >184</text>
+    >191</text>
 
     <text
       x="0"
@@ -124,7 +124,7 @@
       y="69"
       text-anchor="middle"
       class="streak-num"
-    >2</text>
+    >3</text>
 
     <!-- Flame -->
     <path
@@ -145,7 +145,7 @@
       y="136"
       text-anchor="middle"
       class="sub"
-    >Sep 23 - Sep 24</text>
+    >Sep 23 - Sep 25</text>
 
   </g>
 
